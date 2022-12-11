@@ -1,0 +1,1762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- theme meta -->
+    <meta name="theme-name" content="focus" />
+    <title>Focus Admin: Creative Admin Dashboard</title>
+    <!-- ================= Favicon ================== -->
+    <!-- Standard -->
+    <link rel="shortcut icon" href="http://placehold.it/64.png/000/fff">
+    <!-- Retina iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="144x144" href="http://placehold.it/144.png/000/fff">
+    <!-- Retina iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="114x114" href="http://placehold.it/114.png/000/fff">
+    <!-- Standard iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="72x72" href="http://placehold.it/72.png/000/fff">
+    <!-- Standard iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="http://placehold.it/57.png/000/fff">
+    <!-- Styles -->
+    <link href="css/lib/calendar2/pignose.calendar.min.css" rel="stylesheet">
+    <link href="css/lib/chartist/chartist.min.css" rel="stylesheet">
+    <link href="css/lib/font-awesome.min.css" rel="stylesheet">
+    <link href="css/lib/themify-icons.css" rel="stylesheet">
+    <link href="css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/lib/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="css/lib/weather-icons.css" rel="stylesheet" />
+    <link href="css/lib/menubar/sidebar.css" rel="stylesheet">
+    <link href="css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="css/lib/helper.css" rel="stylesheet">
+    <link href="css/lib/data-table/buttons.bootstrap.min.css" rel="stylesheet" />
+    <link href="C:\laragon\www\focus-main\node_modules\bootstrap\dist\css\bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    
+    <div class="sidebar sidebar-hide-to-small sidebar-shrink sidebar-gestures" style="background-color:rgba(82, 162, 255, 1)">
+        <div class="nano">
+            <div class="nano-content">
+                <ul>
+                    <div class="logo" style="background-color:rgba(82, 162, 255, 1)"><a href="index.html">
+                            <!-- <img src="images/logo.png" alt="" /> --><span style="color:white">E-Monev</span></a>
+                    </div>
+                    
+                    <li class="sidebar-sub-toggle">
+                        <a href="tabel.html" style="background-color:rgba(82, 162, 255, 1);color: white">
+                            <i class="ti-user"></i>
+                             REALISASI KINERJA
+                        </a>
+                    </li>
+                    <li class="sidebar-sub-toggle">
+                        <a href="index.html" style="background-color:rgba(82, 162, 255, 1);color: white">
+                            <i class="ti-briefcase"></i>
+                             TARGET KINERJA
+                        </a>
+                    </li>
+                    
+                            
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- /# sidebar -->
+
+    <div class="header">
+        <div class="container-fluid">
+            <div class="row" width="">
+                <div class="col-lg-12">
+                    <div class="float-left">
+                        <div class="hamburger sidebar-toggle">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="float-right">                  
+                        <div class="dropdown dib">
+                            <div class="header-icon" data-toggle="dropdown">
+                              <span class="user-avatar">John
+                                <i class="ti-angle-down f-s-10"></i>
+                              </span>
+                              <div class="drop-down dropdown-profile dropdown-menu dropdown-menu-right">
+                                <div class="dropdown-content-heading">
+                                  <span class="text-left">Upgrade Now</span>
+                                  <p class="trial-day">30 Days Trail</p>
+                                </div>
+                                <div class="dropdown-content-body">
+                                  <ul>
+                                    <li>
+                                      <a href="#">
+                                        <i class="ti-user"></i>
+                                        <span>Profile</span>
+                                      </a>
+                                    </li>
+              
+                                    <li>
+                                      <a href="#">
+                                        <i class="ti-email"></i>
+                                        <span>Inbox</span>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="#">
+                                        <i class="ti-settings"></i>
+                                        <span>Setting</span>
+                                      </a>
+                                    </li>
+              
+                                    <li>
+                                      <a href="#">
+                                        <i class="ti-lock"></i>
+                                        <span>Lock Screen</span>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="C:\laragon\www\focus-main\theme\njr\Login.html">
+                                        <i class="ti-power-off"></i>
+                                        <span>Logout</span>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content-wrap">
+        <div class="main">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8 p-r-0 title-margin-right">
+                        <div class="page-header">
+                            <br class="page-title">
+                                <h2 style="width:20cm">REALISASI KINERJA TRWIULAN PADA TAHUN 2020 </h2>
+                        </br>
+                            <table width="570px">
+                                <tr>
+                                    <th width="230px"><h5>PERANGKAT DAERAH</h5></th>
+                                    <th>
+                                        <div class="card" style="background-color: rgb(253, 253, 253); padding:10px">
+                                            <ul type="button" data-toggle="dropdown" style="color: black; text-align: left;"> Komunikasi dan Informatika</ul>
+                                            <div class="dropdown-menu" style="margin-left:auto">
+                                                <ul>
+                                                    <span class="caret"></span>
+                                                    <li type="button"><a href="#">Lingkungan Hidup</a></li>
+                                                    <li type="button"><a href="#">Komunikasi dan Informatika</a></li>
+                                                    <li type="button"><a href="#">Kesehatan</a></li>
+                                                    <li type="button"><a href="#">Sosial</a></li>
+                                                    <li type="button"><a href="#">Perhubungan</a></li>
+                                                    <li type="button"><a href="#">Koperasi dan Usaha Mikro</a></li>
+                                                    <li type="button"><a href="#">Pekerjaan Umum dan Sumber Daya Air</a></li>
+                                                    <li type="button"><a href="#">Pekerjaan Umum dan Bina Marga</a></li>
+                                                    <li type="button"><a href="#">Perumahan, kawasan Pemukiman dan Cipta Karya</a></li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </table>   
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+                <!-- /# row -->
+                <section id="main-content">
+                    <!-- tabel -->                       
+                        <table width="auto" cellpadding="8" style="border-left:hidden; border-top:solid; border-right: hidden;">
+                            <thead>    
+                                <tr>
+                                    <th rowspan="3" style="text-align: center;border-left:hidden; border-bottom: hidden ;border-right: hidden; border-top: hidden;"></th>
+                                    <th rowspan="3" width="200px" style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;"></th>
+                                    <th rowspan="3" style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden; font-size: 18px; font-weight: bold;">
+                                        PROGRAM/KEGIATAN</th>
+                                    <th rowspan="3" style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">INDIKATOR KINERJA PROGRAM/KEGIATAN</th>
+                                    <th colspan="8" style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">REALISASI KINERJA PADA TRIWULAN</th>
+                                    <th rowspan="2" colspan="2" style="text-align: center;border-left:hidden ;border-right: hidden;font-size: 18px; font-weight: bold;">
+                                        STATUS</th>   
+                                </tr>                               
+                                <tr>
+                                    <th colspan="2" style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">I</th>
+                                    <th colspan="2" style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">II</th>
+                                    <th colspan="2" style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">III</th>
+                                    <th colspan="2" style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">IV</th>
+                                </tr>
+                                <tr>
+                                    <th style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">KINERJA</th>
+                                    <th style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">ANGGARAN(Rp)</th>
+                                    <th style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">KINERJA</th>
+                                    <th style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">ANGGARAN(Rp)</th>
+                                    <th style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">KINERJA</th>
+                                    <th style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">ANGGARAN(Rp)</th>
+                                    <th style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">KINERJA</th>
+                                    <th style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">ANGGARAN(Rp)</th>
+                                    <th style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">
+                                        P/M</th>
+                                    <th style="text-align: center;border-left:hidden; border-bottom: solid grey ;border-right: hidden;font-size: 18px; font-weight: bold;">Kegiatan</th>
+                                </tr>
+                            </thead>
+                            <tbody>    
+                                <tr>
+                                    <td></td>
+                                    <td style="text-align: center;font-size: 14px; font-weight: bold;color:rgb(71, 151, 241)">I</td>
+                                    <td style="font-size: 14px; font-weight: bold;   color:rgb(71, 151, 241)">Program Pelayanan
+                                        Administrasi Perkantoran</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td style="text-align: center;font-size: 14px; font-weight: bold;color:rgb(71, 151, 241)">317.196.984</td>
+                                    <td></td>
+                                    <td colspan="" style="text-align: center;font-size: 14px; font-weight: bold;color:rgb(71, 151, 241)">317.196.984</td>
+                                    <td></td>
+                                    <td colspan="" style="text-align: center;font-size: 14px; font-weight: bold;color:rgb(71, 151, 241)">317.196.984</td>
+                                    <td></td>
+                                    <td colspan="" style="text-align: center;font-size: 14px; font-weight: bold;color:rgb(71, 151, 241)">317.196.984</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="text-align: center;font-size: 14px; font-weight: bold;color:black">.</td>
+                                    <td style="font-size: 14px; font-weight: bold;color:black">...................................</td>
+                                    <td style="text-align: center;font-size: 14px; font-weight: bold;color:black">Persentasi Pemenuhan
+                                        Operasional Perkantoran (%)</td>
+                               
+                                    <td colspan="" style="text-align: center;font-size: 14px; font-weight: bold;color:black">6.4 %</td>
+                                    <td></td>
+                                    <td colspan="" style="text-align: center;font-size: 14px; font-weight: bold;color:black">6.4 %</td>
+                                    <td></td>
+                                    <td colspan="" style="text-align: center;font-size: 14px; font-weight: bold;color:black">6.4 %</td>
+                                    <td></td>
+                                    <td colspan="" style="text-align: center;font-size: 14px; font-weight: bold;color:black">6.4 %</td>
+                                </tr>
+                                <tr>
+                                    <td>
+
+                                        <a href="#myModal" data-toggle="modal">
+                                            <i class="ti-pencil-alt pull-right"></i>
+                                        </a>                                      
+                                        <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                                            <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h4 class="modal-title" style="font-weight: bold">Form Realisasi Kinerja Triwulan Tahun 2020</h4>
+                                                  <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form class="form-horizontal">
+                                                        <table cellpadding="10" width="100%">
+                                                            <tr>
+                                                            <tr border="1">
+                                                                <td colspan="4" style="font-weight:bold;color: black;">Program</td>
+                                                                <td style="text-align: left">
+                                                                    <!-- <div class="mb-3">
+                                                                        <label for="message-text" class="col-form-label">Message:</label>
+                                                                        <textarea class="form-control" id="message-text"></textarea>
+                                                                    </div> -->
+                                                                </td>
+                                                                
+                                                                <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan I</td>
+                                                            
+                                                            </tr>
+                                                            <tr border="1">
+                                                                <td colspan="4" rowspan="2" style="text-align:left">
+                    
+                                                                    <textarea class="form-control-range" id="message-text" width="200" ></textarea>
+                                                            
+                                                                </td>
+                                                                <td></td>
+                                                                <td style="text-align:left">
+                                                                    Kinerja
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" id="kinerja">
+                                                                </td>
+                                                                <td colspan="3" style="text-align: left">buah</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td></td>
+                                                                <td> Anggaran</td>
+                                                                <td colspan="3">
+                                                                    <input type="text" class="form-control" id="Anggaran">
+                                                                </td>
+                                                            </tr>
+                                                            </tr> 
+                                                            <tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" style="font-weight: bold;color: black;">Kegiatan</td>
+                                                                    <td style="text-align: left">
+                                                                        <!-- <div class="mb-3">
+                                                                            <label for="message-text" class="col-form-label">Message:</label>
+                                                                            <textarea class="form-control" id="message-text"></textarea>
+                                                                        </div> -->
+                                                                    </td>
+                                                                    <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan II</td>
+                                                                
+                                                                </tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" rowspan="2" style="text-align:left">
+                        
+                                                                        <textarea class="form-control-range" id="message-text" width="200"></textarea>
+                                                                
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td style="text-align:left">
+                                                                        Kinerja
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" id="kinerja">
+                                                                    </td>
+                                                                    <td colspan="3" style="text-align: left">buah</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td></td>
+                                                                    <td> Anggaran</td>
+                                                                    <td colspan="3">
+                                                                        <input type="text" class="form-control" id="Anggaran">
+                                                                    </td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" style="font-weight: bold ;color: black;">Indikator Kegiatan</td>
+                                                                    <td style="text-align: left">
+                                                                        <!-- <div class="mb-3">
+                                                                            <label for="message-text" class="col-form-label">Message:</label>
+                                                                            <textarea class="form-control" id="message-text"></textarea>
+                                                                        </div> -->
+                                                                    </td>
+                                                                    <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan III</td>
+                                                                
+                                                                </tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" rowspan="2" style="text-align:left">
+                        
+                                                                        <textarea class="form-control-range" id="message-text" width="200" style="background-color: rgb(252, 203, 113);">Jumlah Registrasi Masuk & Surat Keluar</textarea>
+                                                                
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td style="text-align:left">
+                                                                        Kinerja
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" id="kinerja">
+                                                                    </td>
+                                                                    <td colspan="3" style="text-align: left">buah</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td></td>
+                                                                    <td> Anggaran</td>
+                                                                    <td colspan="3">
+                                                                        <input type="text" class="form-control" id="Anggaran">
+                                                                    </td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                            <tr border="1">
+                                                                <td colspan="2" style="font-weight: bold;color: black;">Kinerja</td>
+                                                                <td><input type="text" class="form-control" id="kinerja"></td>
+                                                                <td style="font-weight: bold;color: black;">Buah</td>
+                                                                <td style="text-align: left">
+                                                                    <!-- <div class="mb-3">
+                                                                        <label for="message-text" class="col-form-label">Message:</label>
+                                                                        <textarea class="form-control" id="message-text"></textarea>
+                                                                    </div> -->
+                                                                </td>
+                                                                <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan IV</td>
+                                                            
+                                                            </tr>
+                                                            <tr border="1">
+                                                                <td colspan="2" style="text-align:left;font-weight: 
+                                                                bold;color: black;">Anggaran(Rp)</td>
+                                                                <td colspan="2"><input type="text" class="form-control"></td>
+                                                                <td></td>
+                                                                <td style="text-align:left">
+                                                                    Kinerja
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" id="kinerja">
+                                                                </td>
+                                                                <td colspan="3" style="text-align: left">buah</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2" style="text-align:left;font-weight: 
+                                                                bold;color: black;">Sumber Dana</td>
+                                                                <td colspan="2"><input type="text" class="form-control"></td>
+                                                                <td></td>
+                                                                <td> Anggaran</td>
+                                                                <td colspan="3">
+                                                                    <input type="text" class="form-control" id="Anggaran">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <tr>
+                                                                    <td colspan="2" style="text-align: left; font-weight:bold;color: black;">
+                                                                        Pokir/Musrenbang
+                                                                    </td>
+                                                                    <td coldspan="">
+                                                                        <div class="dropdown">
+                                                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                            Pokir
+                                                                            </button>
+                                                                            <ul class="dropdown-menu">
+                                                                            <li><a class="dropdown-item" href="#">Musrenbang</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td></td>
+                                                                    <td colspan="" style="font-weight: bold;color: black;">Kinerja Akhir tahun</td>
+                                                                    <td colspan="3" style="text-align:left"><div class="dropdown">
+                                                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                        Akumulasi
+                                                                        </button>
+                                                                        <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="#">separasi</a></li>
+                                                                        </ul>
+                                                                    </div></td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <tr>
+                                                                    <td colspan="2" style="text-align: left; font-weight:bold;color: black;">
+                                                                        Status Kegiatan
+                                                                    </td>
+                                                                    <td coldspan="">
+                                                                        <div class="dropdown">
+                                                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                            Done
+                                                                            </button>
+                                                                            <ul class="dropdown-menu">
+                                                                            <li><a class="dropdown-item" href="#">On Progress</a></li>
+                                                                            <li><a class="dropdown-item" href="#">Pending</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td></td>
+                                                                    <td colspan="" style="font-weight: bold;color: black;">Keterangan</td>
+                                                                    <td colspan="3"  rowspan="2" style="text-align:left"><textarea class="form-control-range" id="message-text" width="200"></textarea></td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="4" style="text-align: center;font-weight:bold;color: black;">Rencana Penyerapan Per Triwulan</td>
+                                                                <td></td>
+                                                                
+                                                                
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan I</td>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan II</td>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan III</td>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan IV</td>
+                                                                <td></td>
+                                                                <td colspan="" style="font-weight: bold;color: black;">Target Penurunan</td>
+                                                                <td colspan="3" style="text-align:left"><div class="dropdown">
+                                                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                        Tidak
+                                                                        </button>
+                                                                        <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="#">Ya</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                            </tr>
+                                                        </table>                
+                                                    <div class="form-group" style="text-align: right">
+                                                        <div class="button-list">
+                                                            <button type="button" href="#myModal" data-toggle="modal" title="Edit" class="btn btn-primary m-b-10 m-l-5">Simpan</button>
+                
+                                                            <button type="button" class="btn btn-danger m-b-10 m-l-5">Batal</button>
+                                                        </div>
+                                                    </div>
+                                                  </form>
+                                                </div>
+                                              </div>
+                                              <!-- /.modal-content -->
+                                            </div>
+                                            <!-- /.modal-dialog -->
+                                          </div>
+                                    </td>
+                                    <td style="color: black">1</td>
+                                    <td style="color: black">Penyediaan Jasa Surat Menyurat</td>
+                                    <td style="color: black">Jumlah registrasi surat masuk dan surat keluar </td>
+                                    <td style="color: black; text-align: center;">492 buah</td>
+                                    <td style="color: black;text-align: center;">8,066,800</td>
+                                    <td style="color: black;text-align: center;">306 buah </td>
+                                    <td style="color: black;text-align: center;">8,066,800</td>
+                                    <td style="color: black;text-align: center;">581 buah </td>
+                                    <td style="color: black;text-align: center;">8,066,800</td>
+                                    <td style="color: black;text-align: center;">1581 buah </td>
+                                    <td style="color: black;text-align: center;">8,066,800 </td>
+                                    <td style="color: black;text-align: center;">Pokir </td>
+                                    <td><button type="button" class="btn btn-danger">Pending</button> </td>
+                                </tr>
+                                <tr>
+                                    <td>
+
+                                        <a href="#myModal" data-toggle="modal">
+                                            <i class="ti-pencil-alt pull-right"></i>
+                                        </a>                                      
+                                        <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                                            <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h4 class="modal-title" style="font-weight: bold">Form Realisasi Kinerja Triwulan Tahun 2020</h4>
+                                                  <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form class="form-horizontal">
+                                                        <table cellpadding="10" width="100%">
+                                                            <tr>
+                                                            <tr border="1">
+                                                                <td colspan="4" style="font-weight:bold;color: black;">Program</td>
+                                                                <td style="text-align: left">
+                                                                    <!-- <div class="mb-3">
+                                                                        <label for="message-text" class="col-form-label">Message:</label>
+                                                                        <textarea class="form-control" id="message-text"></textarea>
+                                                                    </div> -->
+                                                                </td>
+                                                                
+                                                                <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan I</td>
+                                                            
+                                                            </tr>
+                                                            <tr border="1">
+                                                                <td colspan="4" rowspan="2" style="text-align:left">
+                    
+                                                                    <textarea class="form-control-range" id="message-text" width="200" ></textarea>
+                                                            
+                                                                </td>
+                                                                <td></td>
+                                                                <td style="text-align:left">
+                                                                    Kinerja
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" id="kinerja">
+                                                                </td>
+                                                                <td colspan="3" style="text-align: left">buah</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td></td>
+                                                                <td> Anggaran</td>
+                                                                <td colspan="3">
+                                                                    <input type="text" class="form-control" id="Anggaran">
+                                                                </td>
+                                                            </tr>
+                                                            </tr> 
+                                                            <tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" style="font-weight: bold;color: black;">Kegiatan</td>
+                                                                    <td style="text-align: left">
+                                                                        <!-- <div class="mb-3">
+                                                                            <label for="message-text" class="col-form-label">Message:</label>
+                                                                            <textarea class="form-control" id="message-text"></textarea>
+                                                                        </div> -->
+                                                                    </td>
+                                                                    <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan II</td>
+                                                                
+                                                                </tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" rowspan="2" style="text-align:left">
+                        
+                                                                        <textarea class="form-control-range" id="message-text" width="200"></textarea>
+                                                                
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td style="text-align:left">
+                                                                        Kinerja
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" id="kinerja">
+                                                                    </td>
+                                                                    <td colspan="3" style="text-align: left">buah</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td></td>
+                                                                    <td> Anggaran</td>
+                                                                    <td colspan="3">
+                                                                        <input type="text" class="form-control" id="Anggaran">
+                                                                    </td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" style="font-weight: bold ;color: black;">Indikator Kegiatan</td>
+                                                                    <td style="text-align: left">
+                                                                        <!-- <div class="mb-3">
+                                                                            <label for="message-text" class="col-form-label">Message:</label>
+                                                                            <textarea class="form-control" id="message-text"></textarea>
+                                                                        </div> -->
+                                                                    </td>
+                                                                    <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan III</td>
+                                                                
+                                                                </tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" rowspan="2" style="text-align:left">
+                        
+                                                                        <textarea class="form-control-range" id="message-text" width="200" style="background-color: rgb(252, 203, 113);">Jumlah Registrasi Masuk & Surat Keluar</textarea>
+                                                                
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td style="text-align:left">
+                                                                        Kinerja
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" id="kinerja">
+                                                                    </td>
+                                                                    <td colspan="3" style="text-align: left">buah</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td></td>
+                                                                    <td> Anggaran</td>
+                                                                    <td colspan="3">
+                                                                        <input type="text" class="form-control" id="Anggaran">
+                                                                    </td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                            <tr border="1">
+                                                                <td colspan="2" style="font-weight: bold;color: black;">Kinerja</td>
+                                                                <td><input type="text" class="form-control" id="kinerja"></td>
+                                                                <td style="font-weight: bold;color: black;">Buah</td>
+                                                                <td style="text-align: left">
+                                                                    <!-- <div class="mb-3">
+                                                                        <label for="message-text" class="col-form-label">Message:</label>
+                                                                        <textarea class="form-control" id="message-text"></textarea>
+                                                                    </div> -->
+                                                                </td>
+                                                                <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan IV</td>
+                                                            
+                                                            </tr>
+                                                            <tr border="1">
+                                                                <td colspan="2" style="text-align:left;font-weight: 
+                                                                bold;color: black;">Anggaran(Rp)</td>
+                                                                <td colspan="2"><input type="text" class="form-control"></td>
+                                                                <td></td>
+                                                                <td style="text-align:left">
+                                                                    Kinerja
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" id="kinerja">
+                                                                </td>
+                                                                <td colspan="3" style="text-align: left">buah</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2" style="text-align:left;font-weight: 
+                                                                bold;color: black;">Sumber Dana</td>
+                                                                <td colspan="2"><input type="text" class="form-control"></td>
+                                                                <td></td>
+                                                                <td> Anggaran</td>
+                                                                <td colspan="3">
+                                                                    <input type="text" class="form-control" id="Anggaran">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <tr>
+                                                                    <td colspan="2" style="text-align: left; font-weight:bold;color: black;">
+                                                                        Pokir/Musrenbang
+                                                                    </td>
+                                                                    <td coldspan="">
+                                                                        <div class="dropdown">
+                                                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                            Pokir
+                                                                            </button>
+                                                                            <ul class="dropdown-menu">
+                                                                            <li><a class="dropdown-item" href="#">Musrenbang</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td></td>
+                                                                    <td colspan="" style="font-weight: bold;color: black;">Kinerja Akhir tahun</td>
+                                                                    <td colspan="3" style="text-align:left"><div class="dropdown">
+                                                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                        Akumulasi
+                                                                        </button>
+                                                                        <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="#">separasi</a></li>
+                                                                        </ul>
+                                                                    </div></td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <tr>
+                                                                    <td colspan="2" style="text-align: left; font-weight:bold;color: black;">
+                                                                        Status Kegiatan
+                                                                    </td>
+                                                                    <td coldspan="">
+                                                                        <div class="dropdown">
+                                                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                            Done
+                                                                            </button>
+                                                                            <ul class="dropdown-menu">
+                                                                            <li><a class="dropdown-item" href="#">On Progress</a></li>
+                                                                            <li><a class="dropdown-item" href="#">Pending</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td></td>
+                                                                    <td colspan="" style="font-weight: bold;color: black;">Keterangan</td>
+                                                                    <td colspan="3"  rowspan="2" style="text-align:left"><textarea class="form-control-range" id="message-text" width="200"></textarea></td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="4" style="text-align: center;font-weight:bold;color: black;">Rencana Penyerapan Per Triwulan</td>
+                                                                <td></td>
+                                                                
+                                                                
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan I</td>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan II</td>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan III</td>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan IV</td>
+                                                                <td></td>
+                                                                <td colspan="" style="font-weight: bold;color: black;">Target Penurunan</td>
+                                                                <td colspan="3" style="text-align:left"><div class="dropdown">
+                                                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                        Tidak
+                                                                        </button>
+                                                                        <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="#">Ya</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                            </tr>
+                                                        </table>                
+                                                    <div class="form-group" style="text-align: right">
+                                                        <div class="button-list">
+                                                            <button type="button" href="#myModal" data-toggle="modal" title="Edit" class="btn btn-primary m-b-10 m-l-5">Simpan</button>
+                
+                                                            <button type="button" class="btn btn-danger m-b-10 m-l-5">Batal</button>
+                                                        </div>
+                                                    </div>
+                                                  </form>
+                                                </div>
+                                              </div>
+                                              <!-- /.modal-content -->
+                                            </div>
+                                            <!-- /.modal-dialog -->
+                                          </div>
+                                    </td>
+                                    <td style="color: black">2</td>
+                                    <td style="color: black">Penyediaan Jasa Surat Menyurat</td>
+                                    <td style="color: black">Jumlah registrasi surat masuk dan surat keluar </td>
+                                    <td style="color: black; text-align: center;">492 buah</td>
+                                    <td style="color: black;text-align: center;">8,066,800</td>
+                                    <td style="color: black;text-align: center;">306 buah </td>
+                                    <td style="color: black;text-align: center;">8,066,800</td>
+                                    <td style="color: black;text-align: center;">581 buah </td>
+                                    <td style="color: black;text-align: center;">8,066,800</td>
+                                    <td style="color: black;text-align: center;">1581 buah </td>
+                                    <td style="color: black;text-align: center;">8,066,800 </td>
+                                    <td style="color: black;text-align: center;">Pokir </td>
+                                    <td><button type="button" class="btn btn-danger">Pending</button> </td>
+                                </tr>
+                                <tr>
+                                    <td>
+
+                                        <a href="#myModal" data-toggle="modal">
+                                            <i class="ti-pencil-alt pull-right"></i>
+                                        </a>                                      
+                                        <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                                            <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h4 class="modal-title" style="font-weight: bold">Form Realisasi Kinerja Triwulan Tahun 2020</h4>
+                                                  <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form class="form-horizontal">
+                                                        <table cellpadding="10" width="100%">
+                                                            <tr>
+                                                            <tr border="1">
+                                                                <td colspan="4" style="font-weight:bold;color: black;">Program</td>
+                                                                <td style="text-align: left">
+                                                                    <!-- <div class="mb-3">
+                                                                        <label for="message-text" class="col-form-label">Message:</label>
+                                                                        <textarea class="form-control" id="message-text"></textarea>
+                                                                    </div> -->
+                                                                </td>
+                                                                
+                                                                <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan I</td>
+                                                            
+                                                            </tr>
+                                                            <tr border="1">
+                                                                <td colspan="4" rowspan="2" style="text-align:left">
+                    
+                                                                    <textarea class="form-control-range" id="message-text" width="200" ></textarea>
+                                                            
+                                                                </td>
+                                                                <td></td>
+                                                                <td style="text-align:left">
+                                                                    Kinerja
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" id="kinerja">
+                                                                </td>
+                                                                <td colspan="3" style="text-align: left">buah</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td></td>
+                                                                <td> Anggaran</td>
+                                                                <td colspan="3">
+                                                                    <input type="text" class="form-control" id="Anggaran">
+                                                                </td>
+                                                            </tr>
+                                                            </tr> 
+                                                            <tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" style="font-weight: bold;color: black;">Kegiatan</td>
+                                                                    <td style="text-align: left">
+                                                                        <!-- <div class="mb-3">
+                                                                            <label for="message-text" class="col-form-label">Message:</label>
+                                                                            <textarea class="form-control" id="message-text"></textarea>
+                                                                        </div> -->
+                                                                    </td>
+                                                                    <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan II</td>
+                                                                
+                                                                </tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" rowspan="2" style="text-align:left">
+                        
+                                                                        <textarea class="form-control-range" id="message-text" width="200"></textarea>
+                                                                
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td style="text-align:left">
+                                                                        Kinerja
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" id="kinerja">
+                                                                    </td>
+                                                                    <td colspan="3" style="text-align: left">buah</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td></td>
+                                                                    <td> Anggaran</td>
+                                                                    <td colspan="3">
+                                                                        <input type="text" class="form-control" id="Anggaran">
+                                                                    </td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" style="font-weight: bold ;color: black;">Indikator Kegiatan</td>
+                                                                    <td style="text-align: left">
+                                                                        <!-- <div class="mb-3">
+                                                                            <label for="message-text" class="col-form-label">Message:</label>
+                                                                            <textarea class="form-control" id="message-text"></textarea>
+                                                                        </div> -->
+                                                                    </td>
+                                                                    <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan III</td>
+                                                                
+                                                                </tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" rowspan="2" style="text-align:left">
+                        
+                                                                        <textarea class="form-control-range" id="message-text" width="200" style="background-color: rgb(252, 203, 113);">Jumlah Registrasi Masuk & Surat Keluar</textarea>
+                                                                
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td style="text-align:left">
+                                                                        Kinerja
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" id="kinerja">
+                                                                    </td>
+                                                                    <td colspan="3" style="text-align: left">buah</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td></td>
+                                                                    <td> Anggaran</td>
+                                                                    <td colspan="3">
+                                                                        <input type="text" class="form-control" id="Anggaran">
+                                                                    </td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                            <tr border="1">
+                                                                <td colspan="2" style="font-weight: bold;color: black;">Kinerja</td>
+                                                                <td><input type="text" class="form-control" id="kinerja"></td>
+                                                                <td style="font-weight: bold;color: black;">Buah</td>
+                                                                <td style="text-align: left">
+                                                                    <!-- <div class="mb-3">
+                                                                        <label for="message-text" class="col-form-label">Message:</label>
+                                                                        <textarea class="form-control" id="message-text"></textarea>
+                                                                    </div> -->
+                                                                </td>
+                                                                <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan IV</td>
+                                                            
+                                                            </tr>
+                                                            <tr border="1">
+                                                                <td colspan="2" style="text-align:left;font-weight: 
+                                                                bold;color: black;">Anggaran(Rp)</td>
+                                                                <td colspan="2"><input type="text" class="form-control"></td>
+                                                                <td></td>
+                                                                <td style="text-align:left">
+                                                                    Kinerja
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" id="kinerja">
+                                                                </td>
+                                                                <td colspan="3" style="text-align: left">buah</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2" style="text-align:left;font-weight: 
+                                                                bold;color: black;">Sumber Dana</td>
+                                                                <td colspan="2"><input type="text" class="form-control"></td>
+                                                                <td></td>
+                                                                <td> Anggaran</td>
+                                                                <td colspan="3">
+                                                                    <input type="text" class="form-control" id="Anggaran">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <tr>
+                                                                    <td colspan="2" style="text-align: left; font-weight:bold;color: black;">
+                                                                        Pokir/Musrenbang
+                                                                    </td>
+                                                                    <td coldspan="">
+                                                                        <div class="dropdown">
+                                                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                            Pokir
+                                                                            </button>
+                                                                            <ul class="dropdown-menu">
+                                                                            <li><a class="dropdown-item" href="#">Musrenbang</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td></td>
+                                                                    <td colspan="" style="font-weight: bold;color: black;">Kinerja Akhir tahun</td>
+                                                                    <td colspan="3" style="text-align:left"><div class="dropdown">
+                                                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                        Akumulasi
+                                                                        </button>
+                                                                        <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="#">separasi</a></li>
+                                                                        </ul>
+                                                                    </div></td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <tr>
+                                                                    <td colspan="2" style="text-align: left; font-weight:bold;color: black;">
+                                                                        Status Kegiatan
+                                                                    </td>
+                                                                    <td coldspan="">
+                                                                        <div class="dropdown">
+                                                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                            Done
+                                                                            </button>
+                                                                            <ul class="dropdown-menu">
+                                                                            <li><a class="dropdown-item" href="#">On Progress</a></li>
+                                                                            <li><a class="dropdown-item" href="#">Pending</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td></td>
+                                                                    <td colspan="" style="font-weight: bold;color: black;">Keterangan</td>
+                                                                    <td colspan="3"  rowspan="2" style="text-align:left"><textarea class="form-control-range" id="message-text" width="200"></textarea></td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="4" style="text-align: center;font-weight:bold;color: black;">Rencana Penyerapan Per Triwulan</td>
+                                                                <td></td>
+                                                                
+                                                                
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan I</td>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan II</td>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan III</td>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan IV</td>
+                                                                <td></td>
+                                                                <td colspan="" style="font-weight: bold;color: black;">Target Penurunan</td>
+                                                                <td colspan="3" style="text-align:left"><div class="dropdown">
+                                                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                        Tidak
+                                                                        </button>
+                                                                        <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="#">Ya</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                            </tr>
+                                                        </table>                
+                                                    <div class="form-group" style="text-align: right">
+                                                        <div class="button-list">
+                                                            <button type="button" href="#myModal" data-toggle="modal" title="Edit" class="btn btn-primary m-b-10 m-l-5">Simpan</button>
+                
+                                                            <button type="button" class="btn btn-danger m-b-10 m-l-5">Batal</button>
+                                                        </div>
+                                                    </div>
+                                                  </form>
+                                                </div>
+                                              </div>
+                                              <!-- /.modal-content -->
+                                            </div>
+                                            <!-- /.modal-dialog -->
+                                          </div>
+                                    </td>
+                                    <td style="color: black">3</td>
+                                    <td style="color: black">Penyediaan Jasa Surat Menyurat</td>
+                                    <td style="color: black">Jumlah registrasi surat masuk dan surat keluar </td>
+                                    <td style="color: black; text-align: center;">492 buah</td>
+                                    <td style="color: black;text-align: center;">8,066,800</td>
+                                    <td style="color: black;text-align: center;">306 buah </td>
+                                    <td style="color: black;text-align: center;">8,066,800</td>
+                                    <td style="color: black;text-align: center;">581 buah </td>
+                                    <td style="color: black;text-align: center;">8,066,800</td>
+                                    <td style="color: black;text-align: center;">1581 buah </td>
+                                    <td style="color: black;text-align: center;">8,066,800 </td>
+                                    <td style="color: black;text-align: center;">Pokir </td>
+                                    <td><button type="button" class="btn btn-danger">Pending</button> </td>
+                                </tr>
+                                <tr>
+                                    <td>
+
+                                        <a href="#myModal" data-toggle="modal">
+                                            <i class="ti-pencil-alt pull-right"></i>
+                                        </a>                                      
+                                        <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                                            <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h4 class="modal-title" style="font-weight: bold">Form Realisasi Kinerja Triwulan Tahun 2020</h4>
+                                                  <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form class="form-horizontal">
+                                                        <table cellpadding="10" width="100%">
+                                                            <tr>
+                                                            <tr border="1">
+                                                                <td colspan="4" style="font-weight:bold;color: black;">Program</td>
+                                                                <td style="text-align: left">
+                                                                    <!-- <div class="mb-3">
+                                                                        <label for="message-text" class="col-form-label">Message:</label>
+                                                                        <textarea class="form-control" id="message-text"></textarea>
+                                                                    </div> -->
+                                                                </td>
+                                                                
+                                                                <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan I</td>
+                                                            
+                                                            </tr>
+                                                            <tr border="1">
+                                                                <td colspan="4" rowspan="2" style="text-align:left">
+                    
+                                                                    <textarea class="form-control-range" id="message-text" width="200" ></textarea>
+                                                            
+                                                                </td>
+                                                                <td></td>
+                                                                <td style="text-align:left">
+                                                                    Kinerja
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" id="kinerja">
+                                                                </td>
+                                                                <td colspan="3" style="text-align: left">buah</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td></td>
+                                                                <td> Anggaran</td>
+                                                                <td colspan="3">
+                                                                    <input type="text" class="form-control" id="Anggaran">
+                                                                </td>
+                                                            </tr>
+                                                            </tr> 
+                                                            <tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" style="font-weight: bold;color: black;">Kegiatan</td>
+                                                                    <td style="text-align: left">
+                                                                        <!-- <div class="mb-3">
+                                                                            <label for="message-text" class="col-form-label">Message:</label>
+                                                                            <textarea class="form-control" id="message-text"></textarea>
+                                                                        </div> -->
+                                                                    </td>
+                                                                    <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan II</td>
+                                                                
+                                                                </tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" rowspan="2" style="text-align:left">
+                        
+                                                                        <textarea class="form-control-range" id="message-text" width="200"></textarea>
+                                                                
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td style="text-align:left">
+                                                                        Kinerja
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" id="kinerja">
+                                                                    </td>
+                                                                    <td colspan="3" style="text-align: left">buah</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td></td>
+                                                                    <td> Anggaran</td>
+                                                                    <td colspan="3">
+                                                                        <input type="text" class="form-control" id="Anggaran">
+                                                                    </td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" style="font-weight: bold ;color: black;">Indikator Kegiatan</td>
+                                                                    <td style="text-align: left">
+                                                                        <!-- <div class="mb-3">
+                                                                            <label for="message-text" class="col-form-label">Message:</label>
+                                                                            <textarea class="form-control" id="message-text"></textarea>
+                                                                        </div> -->
+                                                                    </td>
+                                                                    <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan III</td>
+                                                                
+                                                                </tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" rowspan="2" style="text-align:left">
+                        
+                                                                        <textarea class="form-control-range" id="message-text" width="200" style="background-color: rgb(252, 203, 113);">Jumlah Registrasi Masuk & Surat Keluar</textarea>
+                                                                
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td style="text-align:left">
+                                                                        Kinerja
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" id="kinerja">
+                                                                    </td>
+                                                                    <td colspan="3" style="text-align: left">buah</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td></td>
+                                                                    <td> Anggaran</td>
+                                                                    <td colspan="3">
+                                                                        <input type="text" class="form-control" id="Anggaran">
+                                                                    </td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                            <tr border="1">
+                                                                <td colspan="2" style="font-weight: bold;color: black;">Kinerja</td>
+                                                                <td><input type="text" class="form-control" id="kinerja"></td>
+                                                                <td style="font-weight: bold;color: black;">Buah</td>
+                                                                <td style="text-align: left">
+                                                                    <!-- <div class="mb-3">
+                                                                        <label for="message-text" class="col-form-label">Message:</label>
+                                                                        <textarea class="form-control" id="message-text"></textarea>
+                                                                    </div> -->
+                                                                </td>
+                                                                <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan IV</td>
+                                                            
+                                                            </tr>
+                                                            <tr border="1">
+                                                                <td colspan="2" style="text-align:left;font-weight: 
+                                                                bold;color: black;">Anggaran(Rp)</td>
+                                                                <td colspan="2"><input type="text" class="form-control"></td>
+                                                                <td></td>
+                                                                <td style="text-align:left">
+                                                                    Kinerja
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" id="kinerja">
+                                                                </td>
+                                                                <td colspan="3" style="text-align: left">buah</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2" style="text-align:left;font-weight: 
+                                                                bold;color: black;">Sumber Dana</td>
+                                                                <td colspan="2"><input type="text" class="form-control"></td>
+                                                                <td></td>
+                                                                <td> Anggaran</td>
+                                                                <td colspan="3">
+                                                                    <input type="text" class="form-control" id="Anggaran">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <tr>
+                                                                    <td colspan="2" style="text-align: left; font-weight:bold;color: black;">
+                                                                        Pokir/Musrenbang
+                                                                    </td>
+                                                                    <td coldspan="">
+                                                                        <div class="dropdown">
+                                                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                            Pokir
+                                                                            </button>
+                                                                            <ul class="dropdown-menu">
+                                                                            <li><a class="dropdown-item" href="#">Musrenbang</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td></td>
+                                                                    <td colspan="" style="font-weight: bold;color: black;">Kinerja Akhir tahun</td>
+                                                                    <td colspan="3" style="text-align:left"><div class="dropdown">
+                                                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                        Akumulasi
+                                                                        </button>
+                                                                        <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="#">separasi</a></li>
+                                                                        </ul>
+                                                                    </div></td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <tr>
+                                                                    <td colspan="2" style="text-align: left; font-weight:bold;color: black;">
+                                                                        Status Kegiatan
+                                                                    </td>
+                                                                    <td coldspan="">
+                                                                        <div class="dropdown">
+                                                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                            Done
+                                                                            </button>
+                                                                            <ul class="dropdown-menu">
+                                                                            <li><a class="dropdown-item" href="#">On Progress</a></li>
+                                                                            <li><a class="dropdown-item" href="#">Pending</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td></td>
+                                                                    <td colspan="" style="font-weight: bold;color: black;">Keterangan</td>
+                                                                    <td colspan="3"  rowspan="2" style="text-align:left"><textarea class="form-control-range" id="message-text" width="200"></textarea></td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="4" style="text-align: center;font-weight:bold;color: black;">Rencana Penyerapan Per Triwulan</td>
+                                                                <td></td>
+                                                                
+                                                                
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan I</td>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan II</td>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan III</td>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan IV</td>
+                                                                <td></td>
+                                                                <td colspan="" style="font-weight: bold;color: black;">Target Penurunan</td>
+                                                                <td colspan="3" style="text-align:left"><div class="dropdown">
+                                                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                        Tidak
+                                                                        </button>
+                                                                        <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="#">Ya</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                            </tr>
+                                                        </table>                
+                                                    <div class="form-group" style="text-align: right">
+                                                        <div class="button-list">
+                                                            <button type="button" href="#myModal" data-toggle="modal" title="Edit" class="btn btn-primary m-b-10 m-l-5">Simpan</button>
+                
+                                                            <button type="button" class="btn btn-danger m-b-10 m-l-5">Batal</button>
+                                                        </div>
+                                                    </div>
+                                                  </form>
+                                                </div>
+                                              </div>
+                                              <!-- /.modal-content -->
+                                            </div>
+                                            <!-- /.modal-dialog -->
+                                          </div>
+                                    </td>
+                                    <td style="color: black">4</td>
+                                    <td style="color: black">Penyediaan Jasa Surat Menyurat</td>
+                                    <td style="color: black">Jumlah registrasi surat masuk dan surat keluar </td>
+                                    <td style="color: black; text-align: center;">492 buah</td>
+                                    <td style="color: black;text-align: center;">8,066,800</td>
+                                    <td style="color: black;text-align: center;">306 buah </td>
+                                    <td style="color: black;text-align: center;">8,066,800</td>
+                                    <td style="color: black;text-align: center;">581 buah </td>
+                                    <td style="color: black;text-align: center;">8,066,800</td>
+                                    <td style="color: black;text-align: center;">1581 buah </td>
+                                    <td style="color: black;text-align: center;">8,066,800 </td>
+                                    <td style="color: black;text-align: center;">Pokir </td>
+                                    <td><button type="button" class="btn btn-danger">Pending</button> </td>
+                                </tr>
+                                <tr>
+                                    <td>
+
+                                        <a href="#myModal" data-toggle="modal">
+                                            <i class="ti-pencil-alt pull-right"></i>
+                                        </a>                                      
+                                        <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                                            <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h4 class="modal-title" style="font-weight: bold">Form Realisasi Kinerja Triwulan Tahun 2020</h4>
+                                                  <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form class="form-horizontal">
+                                                        <table cellpadding="10" width="100%">
+                                                            <tr>
+                                                            <tr border="1">
+                                                                <td colspan="4" style="font-weight:bold;color: black;">Program</td>
+                                                                <td style="text-align: left">
+                                                                    <!-- <div class="mb-3">
+                                                                        <label for="message-text" class="col-form-label">Message:</label>
+                                                                        <textarea class="form-control" id="message-text"></textarea>
+                                                                    </div> -->
+                                                                </td>
+                                                                
+                                                                <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan I</td>
+                                                            
+                                                            </tr>
+                                                            <tr border="1">
+                                                                <td colspan="4" rowspan="2" style="text-align:left">
+                    
+                                                                    <textarea class="form-control-range" id="message-text" width="200" ></textarea>
+                                                            
+                                                                </td>
+                                                                <td></td>
+                                                                <td style="text-align:left">
+                                                                    Kinerja
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" id="kinerja">
+                                                                </td>
+                                                                <td colspan="3" style="text-align: left">buah</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td></td>
+                                                                <td> Anggaran</td>
+                                                                <td colspan="3">
+                                                                    <input type="text" class="form-control" id="Anggaran">
+                                                                </td>
+                                                            </tr>
+                                                            </tr> 
+                                                            <tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" style="font-weight: bold;color: black;">Kegiatan</td>
+                                                                    <td style="text-align: left">
+                                                                        <!-- <div class="mb-3">
+                                                                            <label for="message-text" class="col-form-label">Message:</label>
+                                                                            <textarea class="form-control" id="message-text"></textarea>
+                                                                        </div> -->
+                                                                    </td>
+                                                                    <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan II</td>
+                                                                
+                                                                </tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" rowspan="2" style="text-align:left">
+                        
+                                                                        <textarea class="form-control-range" id="message-text" width="200"></textarea>
+                                                                
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td style="text-align:left">
+                                                                        Kinerja
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" id="kinerja">
+                                                                    </td>
+                                                                    <td colspan="3" style="text-align: left">buah</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td></td>
+                                                                    <td> Anggaran</td>
+                                                                    <td colspan="3">
+                                                                        <input type="text" class="form-control" id="Anggaran">
+                                                                    </td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" style="font-weight: bold ;color: black;">Indikator Kegiatan</td>
+                                                                    <td style="text-align: left">
+                                                                        <!-- <div class="mb-3">
+                                                                            <label for="message-text" class="col-form-label">Message:</label>
+                                                                            <textarea class="form-control" id="message-text"></textarea>
+                                                                        </div> -->
+                                                                    </td>
+                                                                    <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan III</td>
+                                                                
+                                                                </tr>
+                                                                <tr border="1">
+                                                                    <td colspan="4" rowspan="2" style="text-align:left">
+                        
+                                                                        <textarea class="form-control-range" id="message-text" width="200" style="background-color: rgb(252, 203, 113);">Jumlah Registrasi Masuk & Surat Keluar</textarea>
+                                                                
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td style="text-align:left">
+                                                                        Kinerja
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" id="kinerja">
+                                                                    </td>
+                                                                    <td colspan="3" style="text-align: left">buah</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td></td>
+                                                                    <td> Anggaran</td>
+                                                                    <td colspan="3">
+                                                                        <input type="text" class="form-control" id="Anggaran">
+                                                                    </td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                            <tr border="1">
+                                                                <td colspan="2" style="font-weight: bold;color: black;">Kinerja</td>
+                                                                <td><input type="text" class="form-control" id="kinerja"></td>
+                                                                <td style="font-weight: bold;color: black;">Buah</td>
+                                                                <td style="text-align: left">
+                                                                    <!-- <div class="mb-3">
+                                                                        <label for="message-text" class="col-form-label">Message:</label>
+                                                                        <textarea class="form-control" id="message-text"></textarea>
+                                                                    </div> -->
+                                                                </td>
+                                                                <td colspan="4" style="text-align: left; font-weight: bold;color: black;">Triwulan IV</td>
+                                                            
+                                                            </tr>
+                                                            <tr border="1">
+                                                                <td colspan="2" style="text-align:left;font-weight: 
+                                                                bold;color: black;">Anggaran(Rp)</td>
+                                                                <td colspan="2"><input type="text" class="form-control"></td>
+                                                                <td></td>
+                                                                <td style="text-align:left">
+                                                                    Kinerja
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" id="kinerja">
+                                                                </td>
+                                                                <td colspan="3" style="text-align: left">buah</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2" style="text-align:left;font-weight: 
+                                                                bold;color: black;">Sumber Dana</td>
+                                                                <td colspan="2"><input type="text" class="form-control"></td>
+                                                                <td></td>
+                                                                <td> Anggaran</td>
+                                                                <td colspan="3">
+                                                                    <input type="text" class="form-control" id="Anggaran">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <tr>
+                                                                    <td colspan="2" style="text-align: left; font-weight:bold;color: black;">
+                                                                        Pokir/Musrenbang
+                                                                    </td>
+                                                                    <td coldspan="">
+                                                                        <div class="dropdown">
+                                                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                            Pokir
+                                                                            </button>
+                                                                            <ul class="dropdown-menu">
+                                                                            <li><a class="dropdown-item" href="#">Musrenbang</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td></td>
+                                                                    <td colspan="" style="font-weight: bold;color: black;">Kinerja Akhir tahun</td>
+                                                                    <td colspan="3" style="text-align:left"><div class="dropdown">
+                                                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                        Akumulasi
+                                                                        </button>
+                                                                        <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="#">separasi</a></li>
+                                                                        </ul>
+                                                                    </div></td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <tr>
+                                                                    <td colspan="2" style="text-align: left; font-weight:bold;color: black;">
+                                                                        Status Kegiatan
+                                                                    </td>
+                                                                    <td coldspan="">
+                                                                        <div class="dropdown">
+                                                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                            Done
+                                                                            </button>
+                                                                            <ul class="dropdown-menu">
+                                                                            <li><a class="dropdown-item" href="#">On Progress</a></li>
+                                                                            <li><a class="dropdown-item" href="#">Pending</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td></td>
+                                                                    <td colspan="" style="font-weight: bold;color: black;">Keterangan</td>
+                                                                    <td colspan="3"  rowspan="2" style="text-align:left"><textarea class="form-control-range" id="message-text" width="200"></textarea></td>
+                                                                </tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="4" style="text-align: center;font-weight:bold;color: black;">Rencana Penyerapan Per Triwulan</td>
+                                                                <td></td>
+                                                                
+                                                                
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan I</td>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan II</td>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan III</td>
+                                                                <td colspan="" width="80px"style="text-align: center;color: black;font-weight:bold">Triwulan IV</td>
+                                                                <td></td>
+                                                                <td colspan="" style="font-weight: bold;color: black;">Target Penurunan</td>
+                                                                <td colspan="3" style="text-align:left"><div class="dropdown">
+                                                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                                        Tidak
+                                                                        </button>
+                                                                        <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="#">Ya</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                                <td colspan=""width="100px"><input type="text" class="form-control"></td>
+                                                            </tr>
+                                                        </table>                
+                                                    <div class="form-group" style="text-align: right">
+                                                        <div class="button-list">
+                                                            <button type="button" href="#myModal" data-toggle="modal" title="Edit" class="btn btn-primary m-b-10 m-l-5">Simpan</button>
+                
+                                                            <button type="button" class="btn btn-danger m-b-10 m-l-5">Batal</button>
+                                                        </div>
+                                                    </div>
+                                                  </form>
+                                                </div>
+                                              </div>
+                                              <!-- /.modal-content -->
+                                            </div>
+                                            <!-- /.modal-dialog -->
+                                          </div>
+                                    </td>
+                                    <td style="color: black">5</td>
+                                    <td style="color: black">Penyediaan Jasa Surat Menyurat</td>
+                                    <td style="color: black">Jumlah registrasi surat masuk dan surat keluar </td>
+                                    <td style="color: black; text-align: center;">492 buah</td>
+                                    <td style="color: black;text-align: center;">8,066,800</td>
+                                    <td style="color: black;text-align: center;">306 buah </td>
+                                    <td style="color: black;text-align: center;">8,066,800</td>
+                                    <td style="color: black;text-align: center;">581 buah </td>
+                                    <td style="color: black;text-align: center;">8,066,800</td>
+                                    <td style="color: black;text-align: center;">1581 buah </td>
+                                    <td style="color: black;text-align: center;">8,066,800 </td>
+                                    <td style="color: black;text-align: center;">Pokir </td>
+                                    <td><button type="button" class="btn btn-danger">Pending</button> </td>
+                                </tr>
+                            </tbody>
+                            </table>
+
+
+                    <!-- end table -->
+                    <!-- <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="bootstrap-data-table-panel">
+                                    <div class="table-responsive">
+                                        <table id="bootstrap-data-table-export"
+                                            class="table table-striped table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th rowspan="3">No</th>
+                                                    <th rowspan="3" style="width: 500px; text-align: center;">
+                                                        Program/Kegiatan</th>
+                                                    <th rowspan="3" style="width: 900px; text-align: center;">Indikator
+                                                        Kinerja Program / Kegiatan</th>
+                                                    <th colspan="8" style="text-align: center;">Realisasi Kinerja Pada triwulan</th>
+                                                </tr>
+                                                <tr>
+                                                    <th colspan="2" style="text-align: center;">I</th>
+                                                    <th colspan="2" style="text-align: center;">II</th>
+                                                    <th colspan="2" style="text-align: center;">III</th>
+                                                    <th colspan="2" style="text-align: center;">IV</th>
+                                                </tr>
+                                                <tr>
+                                                    <th style="text-align: center;">Kinerja</th>
+                                                    <th style="text-align: center;">ANGGARAN(Rp)</th>
+                                                    <th style="text-align: center;">Kinerja</th>
+                                                    <th style="text-align: center;">ANGGARAN(Rp)</th>
+                                                    <th style="text-align: center;">Kinerja</th>
+                                                    <th style="text-align: center;">ANGGARAN(Rp)</th>
+                                                    <th style="text-align: center;">Kinerja</th>
+                                                    <th style="text-align: center;">ANGGARAN(Rp)</th>
+                                                </tr>
+
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Program Pelayanan
+                                                        Administrasi Perkantoran</td>
+                                                    <td></td>
+                                                    <td colspan="2" style="text-align: right;">317.196.984</td>
+                                                    <td colspan="2" style="text-align: right;">232.646.106</td>
+                                                    <td colspan="2" style="text-align: right;">232.646.106</td>
+                                                    <td colspan="2">399.436.530</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>..............</td>
+                                                    <td style="width: 1000px;">Persentasi Pemenuhan
+                                                        Operasional Perkantoran (%)</td>
+                                                    <td colspan="2" style="text-align: left;">6.4 %</td>
+                                                    <td colspan="2" style="text-align: left;">21 %</td>
+                                                    <td colspan="2" style="text-align: left;">21.6 %</td>
+                                                    <td colspan="2" style="text-align: left;">33.8 %</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>1</td>
+                                                    <td>Penyediaan Jasa Surat Menyurat</td>
+                                                    <td>Jumlah registrasi surat masuk dan surat keluar (buah)</td>
+                                                    <td>493 buah</td>
+                                                    <td>8,066,800</td>
+                                                    <td>362 buah </td>
+                                                    <td>5,920,800</td>
+                                                    <td>581 buah </td>
+                                                    <td>9,508,000</td>
+                                                    <td>1564 buah </td>
+                                                    <td>7,719,200 </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Penyediaan Jasa Komunikasi, Sumber Daya Air Dan Listrik</td>
+                                                    <td>Jumlah Penyediaan Listrik, Air Minum,/Air Bersih,Telekomunikasi
+                                                        Dan Internet (Bulan)</td>
+                                                    <td style="width: 1000px;">3 bulan</td>
+                                                    <td>15,913,751</td>
+                                                    <td style="width: 1000px;">3 bulan</td>
+                                                    <td>13,782,774</td>
+                                                    <td style="width: 1000px;">3 bulan</td>
+                                                    <td>14,585,00</td>
+                                                    <td style="width: 1000px;">3 bulan</td>
+                                                    <td>34,459,350</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Penyediaan Jasa Administrasi Keuangan</td>
+                                                    <td>Jumlah pejabat pengelola administrai keuangan (OB)</td>
+                                                    <td>30 OB</td>
+                                                    <td>155,630,533</td>
+                                                    <td>31 OB</td>
+                                                    <td>159,021,648</td>
+                                                    <td>31 OB</td>
+                                                    <td>158,441,706</td>
+                                                    <td>31 OB</td>
+                                                    <td>192,627,680</td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- /# column -->
+                    </div> 
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery vendor -->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/jquery.nanoscroller.min.js"></script>
+    <!-- nano scroller -->
+    <script src="js/lib/menubar/sidebar.js"></script>
+    <script src="js/lib/preloader/pace.min.js"></script>
+    <!-- sidebar -->
+
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- bootstrap -->
+
+    <script src="js/lib/calendar-2/moment.latest.min.js"></script>
+    <script src="js/lib/calendar-2/pignose.calendar.min.js"></script>
+    <script src="js/lib/calendar-2/pignose.init.js"></script>
+
+
+    <script src="js/lib/weather/jquery.simpleWeather.min.js"></script>
+    <script src="js/lib/weather/weather-init.js"></script>
+    <script src="js/lib/circle-progress/circle-progress.min.js"></script>
+    <script src="js/lib/circle-progress/circle-progress-init.js"></script>
+    <script src="js/lib/chartist/chartist.min.js"></script>
+    <script src="js/lib/sparklinechart/jquery.sparkline.min.js"></script>
+    <script src="js/lib/sparklinechart/sparkline.init.js"></script>
+    <script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/lib/owl-carousel/owl.carousel-init.js"></script>
+    <!-- scripit init-->
+    <script src="js/dashboard2.js"></script>
+    <!-- scripit init-->
+    <script src="js/lib/data-table/datatables.min.js"></script>
+    <script src="js/lib/data-table/dataTables.buttons.min.js"></script>
+    <script src="js/lib/data-table/buttons.flash.min.js"></script>
+    <script src="js/lib/data-table/jszip.min.js"></script>
+    <script src="js/lib/data-table/pdfmake.min.js"></script>
+    <script src="js/lib/data-table/vfs_fonts.js"></script>
+    <script src="js/lib/data-table/buttons.html5.min.js"></script>
+    <script src="js/lib/data-table/buttons.print.min.js"></script>
+    <script src="js/lib/data-table/datatables-init.js"></script>
+    <script src="C:\laragon\www\focus-main\node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -70,6 +70,12 @@
 /*    Brand color
 ----------------------*/
 /*----------------font-------------------*/
+textarea{
+  border-radius: 5px;
+}
+input{
+  border-radius: 5px;
+}
 .icon-name {
   color: #000;
 }
@@ -385,6 +391,7 @@ span.badge {
 }
 .bootstrap-data-table-panel .dataTables_filter .form-control {
   margin-left: 10px;
+  border-radius: 5px;
 }
 .bootstrap-data-table-panel .dataTables_filter .form-control:hover,
 .bootstrap-data-table-panel .dataTables_filter .form-control:focus {
@@ -547,6 +554,7 @@ a.dt-button.active:not(.disabled) {
   background: #878787;
   border-color: #878787;
   color: #ffffff;
+  
 }
 .btn-default.active,
 .btn-default:focus,
@@ -1917,7 +1925,7 @@ footer p {
 }
 .form-control {
   height: 42px;
-  border-radius: 0px;
+  border-radius: 7px;
   box-shadow: none;
   border-color: #e7e7e7;
   font-family: 'Roboto', sans-serif;
@@ -4317,6 +4325,7 @@ h6.h1 {
   background-color: #dc3545;
   color: #ffffff;
 }
+
 /*
 /* Version: 1.0
 */
