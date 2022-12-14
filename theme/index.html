@@ -40,7 +40,7 @@
             <div class="nano-content">
                 <ul>
                     <div class="logo" style="background-color:rgba(82, 162, 255, 1)"><a href="index.html">
-                            <!-- <img src="images/logo.png" alt="" /> --><span style="color:white">E-Monev</span></a>
+                            <!-- <img src="images/logo.png" alt="" /> --><span style="color:white">A-Monev</span></a>
                     </div>
                     <li class="sidebar-sub-toggle">
                       <a href="tabel.html" style="background-color:rgba(82, 162, 255, 1);color: white">
@@ -146,7 +146,14 @@
                                 <div class="card-body">
                                     <div class="card" style="background-color: rgb(99, 163, 247)">
                                         <h4>Program</h4>
-                                        <h6 style="color: white;">OPD</h6>
+                                        <table>
+                                          <tr>
+                                            <td><h6 style="color: white;">OPD</h6></td>
+                                            <td> 
+                                              <button type="button" class="btn btn-info " style="background-color: grey;width: 175px;">Print</button>
+                                            </td>
+                                          </tr>
+                                        </table>
                                         <div class="card">
                                             <ul type="button" data-toggle="dropdown" style="color: black;"> Dinas Pendidikan</ul>
                                             <div class="dropdown-menu">
@@ -166,35 +173,11 @@
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <h6 style="color:rgb(214, 67, 67)">Program</h6>
-                                            <div>
-                                                <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)"> 1. peningkatan mutu pendidikan</ul>
-                                                <ul class="dropdown-menu" style="background-color:rgb(202, 194, 79)">
-                                                    <li>Urusan:</li>
-                                                    <li>Pengawasan</a></li>
-                                                </ul>
-                                            </div>
-                                            <div>
-                                                <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)"> 2. peningkatan professionalisme guru</ul>
-                                                <ul class="dropdown-menu" style="background-color:rgb(202, 194, 79)">
-                                                    <li>Urusan:</li>
-                                                    <li>Pelatihan</a></li>
-                                                </ul>
-                                            </div>
-                                            <div>
-                                                <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)"> 3. pembangunan gedung sekolah</ul>
-                                                <ul class="dropdown-menu" style="background-color:rgb(202, 194, 79)">
-                                                    <li>Urusan:</li>
-                                                    <li>pembangunan</a></li>
-                                                </ul>
-                                            </div>                                       
-                                         </br>                                        
-                                            <div class="button-list">
-                                                <button type="button" href="#myModal" data-toggle="modal" title="Edit" class="btn btn-warning m-b-10 m-l-5">Edit</button>
-    
-                                                <button type="button" class="btn btn-danger m-b-10 m-l-5">Hapus</button>
-    
-                                                <button type="button" href="#myModal" data-toggle="modal" title="Edit" class="btn btn-info m-b-10 m-l-5">Tambah</button>
+                                            <table>
+                                              <tr>
+                                                <td><h4 style="color:rgb(214, 67, 67)">Program</h4></td>
+                                                <td>
+                                                  <button type="button" href="#myModal" data-toggle="modal" title="Edit" class="btn btn-info m-b-10 m-l-5">Tambah</button>
                                                   <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal" class="modal fade">
                                                     <div class="modal-dialog">
                                                       <div class="modal-content text-left">
@@ -228,67 +211,268 @@
                                                     </div>
                                                     <!-- /.modal-dialog -->
                                                   </div>
-                                                </div>   
-                                        </div>                                     
-                                        <div class="card">
-                                            <h6 style="color:rgb(214, 67, 67)">Indikator Program</h6>    <div>
-                                                <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)"> 1. Persentase pertumbuhan mutu pendidikan</ul>
-                                                <ul class="dropdown-menu" style="background-color:rgb(202, 194, 79)">
-                                                    <li>Target tahun 2020</li>
-                                                     <li>30%</a></li>
-                                                </ul>
-                                            </div>
-                                            </br>
-                                            <div class="button-list">
-                                                <button type="button" href="#myModal1" data-toggle="modal" title="Edit" class="btn btn-warning m-b-10 m-l-5">Edit</button>
-    
-                                                <button type="button" class="btn btn-danger m-b-10 m-l-5">Hapus</button>
-    
-                                                <button type="button" href="#myModal1" data-toggle="modal" title="Edit" class="btn btn-info m-b-10 m-l-5">Tambah</button>
-                                                <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal1" class="modal fade">
-                                                    <div class="modal-dialog">
-                                                      <div class="modal-content text-left">
-                                                        <div class="modal-header">
-                                                          <h4 class="modal-title"></h4>
-                                                          <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            <form class="form-horizontal">
-                                                                <div class="form-group">
-                                                                    <label class="col-lg-4 control-label">Nama Indikator</label>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                            
+                                            <div>
+                                                <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)">
+                                                  <table>
+                                                    <tr>
+                                                      <td width="705px" style="color: black; font-weight: bold;">1. Peningkatan Mutu Pendidikan</td>
+                                                      <td style="text-align: right;"><div class="button-list">
+                                                        <button type="button" href="#myModal" data-toggle="modal" title="Edit" class="btn btn-warning">Edit</button>
+                                                        <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                                                          <div class="modal-dialog">
+                                                            <div class="modal-content text-left">
+                                                              <div class="modal-header">
+                                                                <h4 class="modal-title"></h4>
+                                                                <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                              </div>
+                                                              <div class="modal-body">
+                                                                <form class="form-horizontal">
+                                                                  <div class="form-group">
+                                                                    <label class="col-lg-4 control-label">Nama Program</label>
                                                                     <div class="col-lg-10">
                                                                       <input type="text" placeholder="" id="inputEmail1" class="form-control">
                                                                     </div>
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label class="col-lg-4 control-label">Target</label>
-                                                                    <div class="col-lg-10">
+                                                                  </div>
+                                                                  <div class="form-group">
+                                                                      <label class="col-lg-2 control-label">Urusan</label>
+                                                                      <div class="col-lg-10">
                                                                         <input type="text" placeholder="" id="inputEmail1" class="form-control">
-                                                                    </div>
-                                                                </div>
-    
-                                                            <div class="form-group">
-                                                              <div class="col-lg-offset-2 col-lg-10">
-                                                                <button class="btn btn-primary" type="submit">Selesai</button>
+                                                                      </div>
+                                                                  </div>                 
+                                                                  <div class="form-group">
+                                                                      <div class="col-lg-offset-2 col-lg-10">
+                                                                          <button class="btn btn-primary" type="submit">Selesai</button>
+                                                                      </div>
+                                                                  </div>
+                                                                </form>
                                                               </div>
                                                             </div>
-                                                          </form>
+                                                            <!-- /.modal-content -->
+                                                          </div>
+                                                          <!-- /.modal-dialog -->
                                                         </div>
-                                                      </div>
-                                                      <!-- /.modal-content -->
-                                                    </div>
-                                                    <!-- /.modal-dialog -->
-                                                </div>      
+            
+                                                        <button type="button" class="btn btn-danger ">Hapus</button> 
+                                                        </div> 
+                                                      </td>
+                                                    </tr>
+                                                  </table>  
+                                                </ul>
+                                                <ul class="dropdown-menu" style="background-color:rgb(202, 194, 79)">
+                                                    <li>Urusan:</li>
+                                                    <li>Pengawasan</a></li>
+                                                </ul>
                                             </div>
+                                            <div>
+                                                <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)">
+                                                  <table>
+                                                    <tr>
+                                                      <td width="705px" style="color: black; font-weight:bold">2 Peningkatan Profesionalisme Guru</td>
+                                                      <td style="text-align: right;"><div class="button-list">
+                                                        <button type="button" href="#myModal" data-toggle="modal" title="Edit" class="btn btn-warning">Edit</button>
+                                                        <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                                                          <div class="modal-dialog">
+                                                            <div class="modal-content text-left">
+                                                              <div class="modal-header">
+                                                                <h4 class="modal-title"></h4>
+                                                                <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                              </div>
+                                                              <div class="modal-body">
+                                                                <form class="form-horizontal">
+                                                                  <div class="form-group">
+                                                                    <label class="col-lg-4 control-label">Nama Program</label>
+                                                                    <div class="col-lg-10">
+                                                                      <input type="text" placeholder="" id="inputEmail1" class="form-control">
+                                                                    </div>
+                                                                  </div>
+                                                                  <div class="form-group">
+                                                                      <label class="col-lg-2 control-label">Urusan</label>
+                                                                      <div class="col-lg-10">
+                                                                        <input type="text" placeholder="" id="inputEmail1" class="form-control">
+                                                                      </div>
+                                                                  </div>                 
+                                                                  <div class="form-group">
+                                                                      <div class="col-lg-offset-2 col-lg-10">
+                                                                          <button class="btn btn-primary" type="submit">Selesai</button>
+                                                                      </div>
+                                                                  </div>
+                                                                </form>
+                                                              </div>
+                                                            </div>
+                                                            <!-- /.modal-content -->
+                                                          </div>
+                                                          <!-- /.modal-dialog -->
+                                                        </div>
+            
+                                                        <button type="button" class="btn btn-danger ">Hapus</button> 
+                                                        </div> 
+                                                      </td>
+                                                    </tr>
+                                                  </table>  
+                                                </ul>
+                                                <ul class="dropdown-menu" style="background-color:rgb(202, 194, 79)">
+                                                    <li>Urusan:</li>
+                                                    <li>Pelatihan</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                              <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)">
+                                                <table>
+                                                  <tr>
+                                                    <td width="705px" style="color: black;font-weight: bold;">3. Pembangunan Gedung Sekolah</td>
+                                                    <td style="text-align: right;"><div class="button-list">
+                                                      <button type="button" href="#myModal" data-toggle="modal" title="Edit" class="btn btn-warning">Edit</button>
+                                                      <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                                                        <div class="modal-dialog">
+                                                          <div class="modal-content text-left">
+                                                            <div class="modal-header">
+                                                              <h4 class="modal-title"></h4>
+                                                              <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                            </div>
+                                                            <div class="modal-body">
+                                                              <form class="form-horizontal">
+                                                                <div class="form-group">
+                                                                  <label class="col-lg-4 control-label">Nama Program</label>
+                                                                  <div class="col-lg-10">
+                                                                    <input type="text" placeholder="" id="inputEmail1" class="form-control">
+                                                                  </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label class="col-lg-2 control-label">Urusan</label>
+                                                                    <div class="col-lg-10">
+                                                                      <input type="text" placeholder="" id="inputEmail1" class="form-control">
+                                                                    </div>
+                                                                </div>                 
+                                                                <div class="form-group">
+                                                                    <div class="col-lg-offset-2 col-lg-10">
+                                                                        <button class="btn btn-primary" type="submit">Selesai</button>
+                                                                    </div>
+                                                                </div>
+                                                              </form>
+                                                            </div>
+                                                          </div>
+                                                          <!-- /.modal-content -->
+                                                        </div>
+                                                        <!-- /.modal-dialog -->
+                                                      </div>
+          
+                                                      <button type="button" class="btn btn-danger ">Hapus</button> 
+                                                      </div> 
+                                                    </td>
+                                                  </tr>
+                                                </table>  
+                                              </ul>
+                                                <ul class="dropdown-menu" style="background-color:rgb(202, 194, 79)">
+                                                    <li>Urusan:</li>
+                                                    <li>pembangunan</a></li>
+                                                </ul>
+                                            </div>                                       
+                                         </br>                                        
+                                              
+                                        </div>                                     
+                                        <div class="card">
+                                          <table>
+                                            <tr>
+                                              <td><h4 style="color:rgb(214, 67, 67)">Indikator Program</h4></td>
+                                              <td>
+                                                <button type="button" href="#myModalind" data-toggle="modal" title="Edit" class="btn btn-info m-b-10 m-l-5">Tambah</button>
+
+                                                <div aria-hidden="true" role="dialog" tabindex="-1" id="myModalind" class="modal fade">
+                                                  <div class="modal-dialog">
+                                                    <div class="modal-content text-left">
+                                                      <div class="modal-header">
+                                                        <h4 class="modal-title"></h4>
+                                                        <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <form class="form-horizontal">
+                                                          <div class="form-group">
+                                                            <label class="col-lg-4 control-label">Nama Indikator</label>
+                                                            <div class="col-lg-10">
+                                                              <input type="text" placeholder="" id="inputEmail1" class="form-control">
+                                                            </div>
+                                                          </div>
+                                                          <div class="form-group">
+                                                              <label class="col-lg-2 control-label">Target</label>
+                                                              <div class="col-lg-10">
+                                                                <input type="text" placeholder="" id="inputEmail1" class="form-control">
+                                                              </div>
+                                                          </div>                 
+                                                          <div class="form-group">
+                                                              <div class="col-lg-offset-2 col-lg-10">
+                                                                  <button class="btn btn-primary" type="submit">Selesai</button>
+                                                              </div>
+                                                          </div>
+                                                        </form>
+                                                      </div>
+                                                    </div>
+                                                    <!-- /.modal-content -->
+                                                  </div>
+                                                  <!-- /.modal-dialog -->
+                                                </div>
+                                              </td>
+                                            </tr>
+                                          </table> 
+
+                                          <div>
+                                            <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)">
+                                              <table>
+                                                <tr>
+                                                  <td width="705px" style="color: black;font-weight: bold;">1. Persentase Pertumbuhan Mutu Pendidikan</td>
+                                                  <td style="text-align: right;">
+                                                    <div class="button-list">
+                                                    <button type="button" href="#myModalind" data-toggle="modal" title="Edit" class="btn btn-warning">Edit</button>
+
+                                                    <button type="button" class="btn btn-danger ">Hapus</button> 
+                                                    </div> 
+                                                  </td>
+                                                </tr>
+                                              </table>  
+                                            </ul>
+                                              <ul class="dropdown-menu" style="background-color:rgb(202, 194, 79)">
+                                                  <li>Target Tahun 2020:</li>
+                                                  <li>30%</a></li>
+                                              </ul>
+                                          </div> 
                                         </div>
                                     </div>
+                                    <!-- Kegiatan -->
                                     <div class="card" style="background-color: rgb(99, 163, 247)">
                                         <h4>Kegiatan</h4>
                                         <h6 style="color:white ;">Sisa PAGU : Rp. xxxxx</h6>
                                         <div class="card">
-                                            <h6 style="color:rgb(214, 67, 67)">Kegiatan</h6>
+                                          <table>
+                                            <tr>
+                                              <td>
+                                                <h4 style="color:rgb(214, 67, 67)">Kegiatan</h4>
+                                              </td>
+                                              <td>
+                                                <td>
+                                                  <button type="button" href="#myModal2" data-toggle="modal" title="Edit" class="btn btn-info m-b-10 m-l-5">Tambah</button>
+                                                </td>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                            
                                             <div>
-                                                <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)"> 1. pembelian buku perpustakaan</ul>
+                                              <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)">
+                                                <table>
+                                                  <tr>
+                                                    <td width="705px" style="color: black;font-weight: bold;">1. Pembelian Buku Perpustakaan</td>
+                                                    <td style="text-align: right;">
+                                                      <div class="button-list">
+                                                      <button type="button" href="#myModal2" data-toggle="modal" title="Edit" class="btn btn-warning">Edit</button>
+  
+                                                      <button type="button" class="btn btn-danger ">Hapus</button> 
+                                                      </div> 
+                                                    </td>
+                                                  </tr>
+                                                </table>  
+                                              </ul>
                                                 <ul class="dropdown-menu" style="background-color:rgb(202, 194, 79)">
                                                     <li>PAGU DPPA tahun 2020:</li>
                                                     <li>Rp. 24,213,442</li>
@@ -296,7 +480,20 @@
                                             </div>
 
                                             <div>
-                                                <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)"> 2. workshop peningkatan professionalisme</ul>
+                                              <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)">
+                                                <table>
+                                                  <tr>
+                                                    <td width="705px" style="color: black;font-weight: bold;">2. Workshop Peningkatan Profesionalisme<td>
+                                                    <td style="text-align: right;">
+                                                      <div class="button-list">
+                                                      <button type="button" href="#myModal2" data-toggle="modal" title="Edit" class="btn btn-warning">Edit</button>
+  
+                                                      <button type="button" class="btn btn-danger ">Hapus</button> 
+                                                      </div> 
+                                                    </td>
+                                                  </tr>
+                                                </table>  
+                                              </ul>
                                                 <ul class="dropdown-menu" style="background-color:rgb(202, 194, 79)">
                                                     <li>PAGU DPPA tahun 2020:</li>
                                                     <li>Rp. 54,213,442</li>
@@ -304,60 +501,47 @@
                                             </div>
 
                                             <div>
-                                                <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)"> 3. pembangunan toilet sekolah</ul>
+                                              <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)">
+                                                <table>
+                                                  <tr>
+                                                    <td width="705px" style="color: black;font-weight: bold;">3. Pembangunan Toilet Sekolah<td>
+                                                    <td style="text-align: right;">
+                                                      <div class="button-list">
+                                                      <button type="button" href="#myModal2" data-toggle="modal" title="Edit" class="btn btn-warning">Edit</button>
+  
+                                                      <button type="button" class="btn btn-danger ">Hapus</button> 
+                                                      </div> 
+                                                    </td>
+                                                  </tr>
+                                                </table>  
+                                              </ul>
                                                 <ul class="dropdown-menu" style="background-color:rgb(202, 194, 79)">
                                                     <li>PAGU DPPA tahun 2020:</li>
                                                     <li>Rp. 104,213,442</li>
                                                 </ul>
                                             </div>                                        
-                                        </br>                                       
-                                            <div class="button-list">
-                                                <button type="button" href="#myModal2" data-toggle="modal" title="Edit" class="btn btn-warning m-b-10 m-l-5">Edit</button>
-    
-                                                <button type="button" class="btn btn-danger m-b-10 m-l-5">Hapus</button>
-    
-                                                <button type="button" href="#myModal2" data-toggle="modal" title="Edit" class="btn btn-info m-b-10 m-l-5">Tambah</button>
-                                                <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal2" class="modal fade">
-                                                    <div class="modal-dialog">
-                                                      <div class="modal-content text-left">
-                                                        <div class="modal-header">
-                                                          <h4 class="modal-title"></h4>
-                                                          <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
-                                                        </div>
-                                                        <div class="modal-body">
-                                                          <form class="form-horizontal">
-                                                            <div class="form-group">
-                                                              <label class="col-lg-4 control-label">Nama Kegiatan</label>
-                                                              <div class="col-lg-10">
-                                                                <input type="text" placeholder="" id="inputEmail1" class="form-control">
-                                                              </div>
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <label class="col-lg-2 control-label">PAGU</label>
-                                                                <div class="col-lg-10">
-                                                                  <input type="text" placeholder="" id="inputEmail1" class="form-control">
-                                                                </div>
-                                                              </div>
-                                                            
-                                                            <div class="form-group">
-                                                              <div class="col-lg-offset-2 col-lg-10">
-                                                                <button class="btn btn-primary" type="submit">Selesai</button>
-                                                              </div>
-                                                            </div>
-                                                          </form>
-                                                        </div>
-                                                      </div>
-                                                      <!-- /.modal-content -->
-                                                    </div>
-                                                    <!-- /.modal-dialog -->
-                                                  </div>   
-                                            </div> 
-                                        </div>
+                                        </br>     
+                                      </div>
+
+                                        <!-- Indikator Kgiatan -->
                                         <div class="card">
-                                            <h6 style="color:rgb(214, 67, 67)">Indikator Kegiatan</h6>
+                                            <h4 style="color:rgb(214, 67, 67)">Indikator Kegiatan</h4>
                                                 
                                                 <div>
-                                                    <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)"> 1. Jumlah pembelian buku perpustakaan</ul>
+                                                  <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown" style="color: black; background-color: rgb(168, 223, 255)">
+                                                    <table>
+                                                      <tr>
+                                                        <td width="705px" style="color: black;font-weight: bold;">1. Jumlah Pembelian Buku Perpustakaan<td>
+                                                        <td style="text-align: right;">
+                                                          <div class="button-list">
+                                                          <button type="button" href="#myModal2" data-toggle="modal" title="Edit" class="btn btn-warning">Edit</button>
+      
+                                                          <button type="button" class="btn btn-danger ">Hapus</button> 
+                                                          </div> 
+                                                        </td>
+                                                      </tr>
+                                                    </table>  
+                                                  </ul>
                                                     <ul class="dropdown-menu"style="background-color:rgb(202, 194, 79)">
                                                         <li>Capaian Kinerja Tahun 2020 : 7649 buah</li>
                                                         <li>Capaian Anggaran Tahun 2020: Rp.24,213,442 </li>
@@ -370,96 +554,7 @@
                                                     </ul>
                                                 </div>
                                                 </br>
-                                                <div class="button-list">
-                                                    <button type="button" href="#myModal3" data-toggle="modal" title="Edit" class="btn btn-warning m-b-10 m-l-5">Edit</button>
-        
-                                                    <button type="button" class="btn btn-danger m-b-10 m-l-5">Hapus</button>
-        
-                                                    <button type="button" href="#myModal3" data-toggle="modal" title="Edit" class="btn btn-info m-b-10 m-l-5">Tambah</button>
-
-                                                    <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal3" class="modal fade" style="padding-top:10cm">
-                                                        <div class="modal-dialog">
-                                                          <div class="modal-content text-left">
-                                                            <div class="modal-header">
-                                                              <h4 class="modal-title"></h4>
-                                                              <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
-                                                            </div>
-                                                            <div class="modal-body">
-                                                              <form class="form-horizontal">
-                                                                <div class="form-group">
-                                                                  <label class="col-lg-4 control-label">Nama Indikator</label>
-                                                                  <div class="col-lg-10">
-                                                                    <input type="text" placeholder="" id="inputEmail1" class="form-control">
-                                                                  </div>
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label class="col-lg-6 control-label">Capaian kinerja tahun 2020</label>
-                                                                    <div class="col-lg-10">
-                                                                      <input type="text" placeholder="" id="inputEmail1" class="form-control">
-                                                                    </div>
-                                                                  </div>
-                                                                  <div class="form-group">
-                                                                    <label class="col-lg-6 control-label">Capaian anggaran tahun 2020</label>
-                                                                    <div class="col-lg-10">
-                                                                      <input type="text" placeholder="" id="inputEmail1" class="form-control">
-                                                                    </div>
-                                                                  </div>
-                                                                  <div class="form-group">
-                                                                    <label class="col-lg-4 control-label">Pokir/Musrenbang</label>
-                                                                    <div class="col-lg-10">
-                                                                      <ul class="list-group-item dropdown" type="button"  data-toggle="dropdown">Pokir
-                                                                        <li class="dropdown-menu" ><a href="#" style="padding-left:10px">Musrenbang</a></li></ul>
-                                                                    </div>
-                                                                  </div>
-                                                                  <div class="form-group">
-                                                                    <label class="col-lg-4 control-label">Progress</label>
-                                                                    <div class="col-lg-10">
-                                                                        <ul class="list-group-item dropdown" type="button"data-toggle="dropdown"> Done
-                                                                            <ul class="dropdown-menu" >
-                                                                                <li><a href="#" style="padding-left:10px">Pending</a></li>
-
-                                                                                <li><a href="#" style="padding-left:10px">On Progress</a></li>
-                                                                            </ul>   
-                                                                        </ul>
-                                                                    </div>
-                                                                    
-                                                                  </div>
-                                                                  <div class="form-group">
-                                                                    <label class="col-lg-4 control-label">sumber dana</label>
-                                                                    <div class="col-lg-10">
-                                                                      <input type="text" placeholder="" id="inputEmail1" class="form-control">
-                                                                    </div>
-                                                                  </div>
-                                                                  <div class="form-group">
-                                                                    <label class="col-lg-4 control-label">Lokasi</label>
-                                                                    <div class="col-lg-10">
-                                                                      <input type="text" placeholder="" id="inputEmail1" class="form-control">
-                                                                    </div>
-                                                                  </div>
-                                                                  <div class="form-group">
-                                                                    <label class="col-lg-4 control-label">Keterangan</label>
-                                                                    <div class="col-lg-10">
-                                                                      <input type="text" placeholder="" id="inputEmail1" class="form-control">
-                                                                    </div>
-                                                                  </div>
-                                                                
-                                                                <div class="form-group">
-                                                                  <div class="col-lg-offset-1 col-lg-10">
-                                                                    <button class="btn btn-primary" type="submit">Selesai</button>
-                                                                  </div>
-                                                                </div>
-                                                              </form>
-                                                            </div>
-                                                          </div>
-                                                          <!-- /.modal-content -->
-                                                        </div>
-                                                        <!-- /.modal-dialog -->
-                                                      
-                                                    </div>
-                                        
-                                                
-                                                 
-                                                </div>   
+                                                  
                                         </div>                                      
                                     </div>                         
                                 </div>
