@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- theme meta -->
+    <meta name="theme-name" content="focus" />
+    <title>Focus Admin: Creative Admin Dashboard</title>
+    <!-- ================= Favicon ================== -->
+    <!-- Standard -->
+    <link rel="shortcut icon" href="http://placehold.it/64.png/000/fff">
+    <!-- Retina iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="144x144" href="http://placehold.it/144.png/000/fff">
+    <!-- Retina iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="114x114" href="http://placehold.it/114.png/000/fff">
+    <!-- Standard iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="72x72" href="http://placehold.it/72.png/000/fff">
+    <!-- Standard iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="http://placehold.it/57.png/000/fff">
+    <!-- Styles -->
+    <link href="css/lib/calendar2/pignose.calendar.min.css" rel="stylesheet">
+    <link href="css/lib/chartist/chartist.min.css" rel="stylesheet">
+    <link href="css/lib/font-awesome.min.css" rel="stylesheet">
+    <link href="css/lib/themify-icons.css" rel="stylesheet">
+    <link href="css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/lib/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="css/lib/weather-icons.css" rel="stylesheet" />
+    <link href="css/lib/menubar/sidebar.css" rel="stylesheet">
+    <link href="css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="css/lib/helper.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="sidebar sidebar-hide-to-small sidebar-shrink sidebar-gestures" style="background-color:rgba(82, 162, 255, 1)">
+        <div class="nano">
+            <div class="nano-content">
+                <ul>
+                    <div class="logo" style="background-color:rgba(82, 162, 255, 1)"><a href="index.html">
+                            <!-- <img src="images/logo.png" alt="" /> --><span style="color:white">A-Monev</span></a>
+                    </div>
+                    <li class="sidebar-sub-toggle">
+                      <a href="tabel.html" style="background-color:rgba(82, 162, 255, 1);color: white">
+                          <i class="ti-bar-chart"></i>
+                           REALISASI KINERJA
+                      </a>
+                  </li>
+                  <li class="sidebar-sub-toggle">
+                      <a href="index.html" style="background-color:rgba(82, 162, 255, 1);color: white">
+                          <i class="ti-briefcase"></i>
+                           TARGET KINERJA
+                      </a>
+                  </li>
+                  <li class="sidebar-sub-toggle">
+                    <a href="User.html" style="background-color:rgba(82, 162, 255, 1);color: white">
+                        <i class="ti-user"></i>
+                         FORM USER
+                    </a>
+                  </li>
+                  <li class="sidebar-sub-toggle">
+                    <a href="Feedback.html" style="background-color:rgba(82, 162, 255, 1);color: white">
+                        <i class="ti-comment"></i>
+                         FORM FEEDBACK
+                    </a>
+                  </li>
+                            
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- /# sidebar -->
+
+    <div class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="float-left">
+                        <div class="hamburger sidebar-toggle">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="float-right">                  
+                        <div class="dropdown dib">
+                            <div class="header-icon" data-toggle="dropdown">
+                              <span class="user-avatar">John
+                                <i class="ti-angle-down f-s-10"></i>
+                              </span>
+                              <div class="drop-down dropdown-profile dropdown-menu dropdown-menu-right">
+                                <div class="dropdown-content-heading">
+                                  <span class="text-left">Upgrade Now</span>
+                                  <p class="trial-day">30 Days Trail</p>
+                                </div>
+                                <div class="dropdown-content-body">
+                                  <ul>
+                                    <li>
+                                      <a href="#">
+                                        <i class="ti-user"></i>
+                                        <span>Profile</span>
+                                      </a>
+                                    </li>
+              
+                                    <li>
+                                      <a href="#">
+                                        <i class="ti-email"></i>
+                                        <span>Inbox</span>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="#">
+                                        <i class="ti-settings"></i>
+                                        <span>Setting</span>
+                                      </a>
+                                    </li>
+              
+                                    <li>
+                                      <a href="#">
+                                        <i class="ti-lock"></i>
+                                        <span>Lock Screen</span>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="\njr\Login.html">
+                                        <i class="ti-power-off"></i>
+                                        <span>Logout</span>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content-wrap">
+        <div class="main">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- /# column -->
+                </div>
+                <!-- /# row -->
+                <section id="main-content">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-title">
+                                    <h2 style="text-align: left;">Form Feedback</h2>
+                                </div>
+                                <div class="inbox-head" style="background-color: white;">
+                                    <h3 class="input-text" ></h3>
+                                    <form action="#" class="pull-right position" >
+                                        <div class="input-append inner-append" >
+                                          <input type="text" class="sr-input" placeholder="Search Program" style="background-color: rgb(226, 226, 226);">
+                                          <button class="btn sr-btn append-btn" type="button"style="background-color: rgb(226, 226, 226);"><i class="fa fa-search" ></i></button>
+                                        </div>
+                                    </form>
+                                    <form action="#" class="pull-right position" style="margin-right: 10px;">
+                                      <div class="input-append inner-append">
+                                        <input type="text" class="sr-input" placeholder="Search Kegiatan"style="background-color: rgb(226, 226, 226);">
+                                        <button class="btn sr-btn append-btn" type="button"style="background-color: rgb(226, 226, 226);"><i class="fa fa-search" ></i></button>
+                                      </div>
+                                    </form>
+                                </div>
+                                <br/>
+                                <table border="1" width="970">
+                                    <tr>
+                                        <td style="text-align: left;font-weight: bold; background-color: rgb(212, 212, 212);color: black;padding-left: 10px;">NO</td>
+                                        <td style="text-align: left;font-weight: bold; background-color: rgb(212, 212, 212);color: black;padding-left: 10px; width: 200px;">Program</td>
+                                        <td style="text-align: left;font-weight: bold; background-color: rgb(212, 212, 212);color: black;padding-left: 10px">Kegiatan</td>
+                                        <td style="text-align: left;font-weight: bold; background-color: rgb(212, 212, 212);color: black;padding-left: 10px">Keterangan</td>
+                                        <td style="text-align: left;font-weight: bold; background-color: rgb(212, 212, 212);color: black;padding-left: 10px">Feedback</td>
+                                        <td style="text-align: left;font-weight: bold; background-color: rgb(212, 212, 212);color: black;padding-left: 10px">Aksi</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1;">
+                                        <td style="padding-left: 10px;">1</td>
+                                        <td style="padding-left: 10px;">Program Pelayanan Administrasi Perkantoran</td>
+                                        <td style="padding-left: 10px;">Penyedia jasa Surat Menyurat</td>
+                                        <td style="text-align: left; padding-left: 10px;">Penyedia jasa Surat Menyurat</td>
+                                        <td style="text-align: left; padding-left: 10px;">Penyedia jasa Surat Menyurat</td>
+                                        <td>
+                                            <div class="button-list">
+                                                <button type="button" href="#myModal" data-toggle="modal" title="Edit" class="btn btn-warning">Edit</button>
+                                                <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                                                  <div class="modal-dialog">
+                                                    <div class="modal-content text-left">
+                                                      <div class="modal-header">
+                                                        <h4 class="modal-title">Edit Feedback</h4>
+                                                        <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <form class="form-horizontal">
+                                                          <table cellpadding="10">
+                                                            <tr>
+                                                                <td>Program:&nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                
+                                                            </tr>
+                                                            
+                                                            <tr>
+                                                                <td>Kegiatan: &nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                                            </tr>
+                                                            
+                                                            <tr style="margin-top: 20px;">
+                                                                <td>Keterangan: &nbsp;</td>
+                                                                <td style="text-align: left;">Pada kegiatan ini terdapat problem terkait progress</td>
+                                                            </tr>
+                                                          </table>
+                                                          <br/>
+                                                          <ul>Feedback</ul>
+                                                          <textarea rows="5" cols="60"></textarea>                  
+                                                          <div class="form-group">
+                                                              <div class="col-lg-offset-2 col-lg-10">
+                                                                  <button class="btn btn-primary" type="submit">Selesai</button>
+                                                              </div>
+                                                          </div>
+                                                        </form>
+                                                      </div>
+                                                    </div>
+                                                    <!-- /.modal-content -->
+                                                  </div>
+                                                  <!-- /.modal-dialog -->
+                                                </div>
+    
+                                                <button type="button" href="#myModal2" data-toggle="modal" title="Edit" class="btn btn-info">Info</button>
+                                                <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal2" class="modal fade">
+                                                  <div class="modal-dialog">
+                                                    <div class="modal-content text-left">
+                                                      <div class="modal-header">
+                                                        <h4 class="modal-title">Info Feedback</h4>
+                                                        <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <form class="form-horizontal">
+                                                          <table cellpadding="10" >
+                                                            <tr>
+                                                                <td>Program:&nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                
+                                                            </tr>
+                                                            
+                                                            <tr>
+                                                                <td>Kegiatan: &nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                                            </tr>
+                                                            
+                                                            <tr style="margin-top: 20px;">
+                                                                <td>Keterangan: &nbsp;</td>
+                                                                <td style="text-align: left;">Pada kegiatan ini terdapat problem terkait progress</td>
+                                                            </tr>
+                                                            <tr style="margin-top: 20px;">
+                                                                <td>Feedback: &nbsp;</td>
+                                                                <td style="text-align: left;">Pada kegiatan ini terdapat problem terkait progress</td>
+                                                            </tr>
+                                                          </table>
+                                                          
+                                                        </form>
+                                                      </div>
+                                                    </div>
+                                                    <!-- /.modal-content -->
+                                                  </div>
+                                                  <!-- /.modal-dialog -->
+                                                </div>
+                                                </div> 
+                                        </td>
+                                    </tr>
+                                    <tr style="border-bottom: 1;">
+                                        <td style="padding-left: 10px;">2</td>
+                                        <td style="padding-left: 10px;">Program Pelayanan Administrasi Perkantoran</td>
+                                        <td style="padding-left: 10px;">Penyedia jasa Surat Menyurat</td>
+                                        <td style="text-align: left; padding-left: 10px;">Penyedia jasa Surat Menyurat</td>
+                                        <td style="text-align: left; padding-left: 10px;">Penyedia jasa Surat Menyurat</td>
+                                        <td>
+                                            <div class="button-list">
+                                                <button type="button" href="#myModal" data-toggle="modal" title="Edit" class="btn btn-warning">Edit</button>
+                                                <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                                                  <div class="modal-dialog">
+                                                    <div class="modal-content text-left">
+                                                      <div class="modal-header">
+                                                        <h4 class="modal-title">Edit Feedback</h4>
+                                                        <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <form class="form-horizontal">
+                                                          <table cellpadding="10">
+                                                            <tr>
+                                                                <td>Program:&nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                
+                                                            </tr>
+                                                            
+                                                            <tr>
+                                                                <td>Kegiatan: &nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                                            </tr>
+                                                            
+                                                            <tr style="margin-top: 20px;">
+                                                                <td>Keterangan: &nbsp;</td>
+                                                                <td style="text-align: left;">Pada kegiatan ini terdapat problem terkait progress</td>
+                                                            </tr>
+                                                          </table>
+                                                          <br/>
+                                                          <ul>Feedback</ul>
+                                                          <textarea rows="5" cols="60"></textarea>                  
+                                                          <div class="form-group">
+                                                              <div class="col-lg-offset-2 col-lg-10">
+                                                                  <button class="btn btn-primary" type="submit">Selesai</button>
+                                                              </div>
+                                                          </div>
+                                                        </form>
+                                                      </div>
+                                                    </div>
+                                                    <!-- /.modal-content -->
+                                                  </div>
+                                                  <!-- /.modal-dialog -->
+                                                </div>
+    
+                                                <button type="button" href="#myModal2" data-toggle="modal" title="Edit" class="btn btn-info">Info</button>
+                                                <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal2" class="modal fade">
+                                                  <div class="modal-dialog">
+                                                    <div class="modal-content text-left">
+                                                      <div class="modal-header">
+                                                        <h4 class="modal-title">Info Feedback</h4>
+                                                        <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <form class="form-horizontal">
+                                                          <table cellpadding="10" >
+                                                            <tr>
+                                                                <td>Program:&nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                
+                                                            </tr>
+                                                            
+                                                            <tr>
+                                                                <td>Kegiatan: &nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                                            </tr>
+                                                            
+                                                            <tr style="margin-top: 20px;">
+                                                                <td>Keterangan: &nbsp;</td>
+                                                                <td style="text-align: left;">Pada kegiatan ini terdapat problem terkait progress</td>
+                                                            </tr>
+                                                            <tr style="margin-top: 20px;">
+                                                                <td>Feedback: &nbsp;</td>
+                                                                <td style="text-align: left;">Pada kegiatan ini terdapat problem terkait progress</td>
+                                                            </tr>
+                                                          </table>
+                                                          
+                                                        </form>
+                                                      </div>
+                                                    </div>
+                                                    <!-- /.modal-content -->
+                                                  </div>
+                                                  <!-- /.modal-dialog -->
+                                                </div>
+                                                </div> 
+                                        </td>
+                                    </tr>
+                                    <tr style="border-bottom: 1;">
+                                        <td style="padding-left: 10px;">3</td>
+                                        <td style="padding-left: 10px;">Program Pelayanan Administrasi Perkantoran</td>
+                                        <td style="padding-left: 10px;">Penyedia jasa Surat Menyurat</td>
+                                        <td style="text-align: left; padding-left: 10px;">Penyedia jasa Surat Menyurat</td>
+                                        <td style="text-align: left; padding-left: 10px;">Penyedia jasa Surat Menyurat</td>
+                                        <td>
+                                            <div class="button-list">
+                                                <button type="button" href="#myModal" data-toggle="modal" title="Edit" class="btn btn-warning">Edit</button>
+                                                <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                                                  <div class="modal-dialog">
+                                                    <div class="modal-content text-left">
+                                                      <div class="modal-header">
+                                                        <h4 class="modal-title">Edit Feedback</h4>
+                                                        <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <form class="form-horizontal">
+                                                          <table cellpadding="10">
+                                                            <tr>
+                                                                <td>Program:&nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                
+                                                            </tr>
+                                                            
+                                                            <tr>
+                                                                <td>Kegiatan: &nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                                            </tr>
+                                                            
+                                                            <tr style="margin-top: 20px;">
+                                                                <td>Keterangan: &nbsp;</td>
+                                                                <td style="text-align: left;">Pada kegiatan ini terdapat problem terkait progress</td>
+                                                            </tr>
+                                                          </table>
+                                                          <br/>
+                                                          <ul>Feedback</ul>
+                                                          <textarea rows="5" cols="60"></textarea>                  
+                                                          <div class="form-group">
+                                                              <div class="col-lg-offset-2 col-lg-10">
+                                                                  <button class="btn btn-primary" type="submit">Selesai</button>
+                                                              </div>
+                                                          </div>
+                                                        </form>
+                                                      </div>
+                                                    </div>
+                                                    <!-- /.modal-content -->
+                                                  </div>
+                                                  <!-- /.modal-dialog -->
+                                                </div>
+    
+                                                <button type="button" href="#myModal2" data-toggle="modal" title="Edit" class="btn btn-info">Info</button>
+                                                <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal2" class="modal fade">
+                                                  <div class="modal-dialog">
+                                                    <div class="modal-content text-left">
+                                                      <div class="modal-header">
+                                                        <h4 class="modal-title">Info Feedback</h4>
+                                                        <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <form class="form-horizontal">
+                                                          <table cellpadding="10" >
+                                                            <tr>
+                                                                <td>Program:&nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                
+                                                            </tr>
+                                                            
+                                                            <tr>
+                                                                <td>Kegiatan: &nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                                            </tr>
+                                                            
+                                                            <tr style="margin-top: 20px;">
+                                                                <td>Keterangan: &nbsp;</td>
+                                                                <td style="text-align: left;">Pada kegiatan ini terdapat problem terkait progress</td>
+                                                            </tr>
+                                                            <tr style="margin-top: 20px;">
+                                                                <td>Feedback: &nbsp;</td>
+                                                                <td style="text-align: left;">Pada kegiatan ini terdapat problem terkait progress</td>
+                                                            </tr>
+                                                          </table>
+                                                          
+                                                        </form>
+                                                      </div>
+                                                    </div>
+                                                    <!-- /.modal-content -->
+                                                  </div>
+                                                  <!-- /.modal-dialog -->
+                                                </div>
+                                                </div> 
+                                        </td>
+                                    </tr>
+                                    <tr style="border-bottom: 1;">
+                                        <td style="padding-left: 10px;">4</td>
+                                        <td style="padding-left: 10px;">Program Pelayanan Administrasi Perkantoran</td>
+                                        <td style="padding-left: 10px;">Penyedia jasa Surat Menyurat</td>
+                                        <td style="text-align: left; padding-left: 10px;">Penyedia jasa Surat Menyurat</td>
+                                        <td style="text-align: left; padding-left: 10px;">Penyedia jasa Surat Menyurat</td>
+                                        <td>
+                                            <div class="button-list">
+                                                <button type="button" href="#myModal" data-toggle="modal" title="Edit" class="btn btn-warning">Edit</button>
+                                                <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                                                  <div class="modal-dialog">
+                                                    <div class="modal-content text-left">
+                                                      <div class="modal-header">
+                                                        <h4 class="modal-title">Edit Feedback</h4>
+                                                        <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <form class="form-horizontal">
+                                                          <table cellpadding="10">
+                                                            <tr>
+                                                                <td>Program:&nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                
+                                                            </tr>
+                                                            
+                                                            <tr>
+                                                                <td>Kegiatan: &nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                                            </tr>
+                                                            
+                                                            <tr style="margin-top: 20px;">
+                                                                <td>Keterangan: &nbsp;</td>
+                                                                <td style="text-align: left;">Pada kegiatan ini terdapat problem terkait progress</td>
+                                                            </tr>
+                                                          </table>
+                                                          <br/>
+                                                          <ul>Feedback</ul>
+                                                          <textarea rows="5" cols="60"></textarea>                  
+                                                          <div class="form-group">
+                                                              <div class="col-lg-offset-2 col-lg-10">
+                                                                  <button class="btn btn-primary" type="submit">Selesai</button>
+                                                              </div>
+                                                          </div>
+                                                        </form>
+                                                      </div>
+                                                    </div>
+                                                    <!-- /.modal-content -->
+                                                  </div>
+                                                  <!-- /.modal-dialog -->
+                                                </div>
+    
+                                                <button type="button" href="#myModal2" data-toggle="modal" title="Edit" class="btn btn-info">Info</button>
+                                                <div aria-hidden="true" role="dialog" tabindex="-1" id="myModal2" class="modal fade">
+                                                  <div class="modal-dialog">
+                                                    <div class="modal-content text-left">
+                                                      <div class="modal-header">
+                                                        <h4 class="modal-title">Info Feedback</h4>
+                                                        <button aria-hidden="true" data-dismiss="modal" class="close" type="button"><i class="ti-close"></i></button>  
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <form class="form-horizontal">
+                                                          <table cellpadding="10" >
+                                                            <tr>
+                                                                <td>Program:&nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                
+                                                            </tr>
+                                                            
+                                                            <tr>
+                                                                <td>Kegiatan: &nbsp;</td>
+                                                                <td style="text-align: left;">Program Pelayanan Administrasi Perkantoran</td>
+                                                            </tr>
+                                                            
+                                                            <tr style="margin-top: 20px;">
+                                                                <td>Keterangan: &nbsp;</td>
+                                                                <td style="text-align: left;">Pada kegiatan ini terdapat problem terkait progress</td>
+                                                            </tr>
+                                                            <tr style="margin-top: 20px;">
+                                                                <td>Feedback: &nbsp;</td>
+                                                                <td style="text-align: left;">Pada kegiatan ini terdapat problem terkait progress</td>
+                                                            </tr>
+                                                          </table>
+                                                          
+                                                        </form>
+                                                      </div>
+                                                    </div>
+                                                    <!-- /.modal-content -->
+                                                  </div>
+                                                  <!-- /.modal-dialog -->
+                                                </div>
+                                                </div> 
+                                        </td>
+                                    </tr>
+                                    
+                                </table>
+                                <br/>
+                                <ul>Pages: <a href="#">1</a>
+                                    <a href="#">2</a>
+                                    <a href="#">3</a>
+                                    ....
+                                    <a href="#">Last</a>
+                                    1 of 5
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery vendor -->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/jquery.nanoscroller.min.js"></script>
+    <!-- nano scroller -->
+    <script src="js/lib/menubar/sidebar.js"></script>
+    <script src="js/lib/preloader/pace.min.js"></script>
+    <!-- sidebar -->
+
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- bootstrap -->
+
+    <script src="js/lib/calendar-2/moment.latest.min.js"></script>
+    <script src="js/lib/calendar-2/pignose.calendar.min.js"></script>
+    <script src="js/lib/calendar-2/pignose.init.js"></script>
+
+
+    <script src="js/lib/weather/jquery.simpleWeather.min.js"></script>
+    <script src="js/lib/weather/weather-init.js"></script>
+    <script src="js/lib/circle-progress/circle-progress.min.js"></script>
+    <script src="js/lib/circle-progress/circle-progress-init.js"></script>
+    <script src="js/lib/chartist/chartist.min.js"></script>
+    <script src="js/lib/sparklinechart/jquery.sparkline.min.js"></script>
+    <script src="js/lib/sparklinechart/sparkline.init.js"></script>
+    <script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/lib/owl-carousel/owl.carousel-init.js"></script>
+    <!-- scripit init-->
+    <script src="js/dashboard2.js"></script>
+</body>
+
+</html>
